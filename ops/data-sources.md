@@ -55,4 +55,5 @@ URLs and coverage rot; when a source is used, confirm it and update this table. 
 |---|---|---|
 | County planner | Capacity, largest-project precedent, process reality | Scripted 30-min call ([framework/03](../framework/03-county-screen.md)) |
 | EDO director | Hunger vs. preservationism, incentives | Email template + call |
-| Local land-use counsel | Verification of all Step 0 statutory hypotheses | Paid con
+| Local land-use counsel | Verification of all Step 0 statutory hypotheses | Paid consult; converts state file to counsel-reviewed |
+| Title company / county assessor | Ownership, liens, assembly reality | Late stage (Commit) |
