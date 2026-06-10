@@ -43,4 +43,4 @@ The [state screen](02-state-screen.md) enumerates which paths exist in each stat
 
 ---
 
-Framework ends here. See [results/](../results/) for applications and [ROADMAP](../ROADMAP.md) for the plan.
+Next: [06 — Project Spec](06-project-spec.md)

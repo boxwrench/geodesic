@@ -15,7 +15,8 @@
 | Water basin status (West) / wetlands+floodplain proxy (Southeast) | | | | |
 | Tribal/military/protected overlays | | | | |
 | Landownership fragmentation at candidate sites | | | | |
-| Transmission proximity | | | | |
+| Transmission proximity (vs. [spec threshold](../../framework/06-project-spec.md)) | | | | |
+| Federal exposure: IPaC species/habitat report; NWI density as §404 proxy ([framework/07](../../framework/07-federal-layer.md)) | | | | |
 | Municipal proximity / ETJ exposure | | | | |
 
 ## Stage 2 — Filter (1d budget; actual: __)

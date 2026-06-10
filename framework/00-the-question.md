@@ -30,4 +30,4 @@ A stability guarantee on paper is a worthless surface signal. Próspera (Hondura
 
 ## Reading order
 
-This is doc 00 of the framework. Continue: [01 — Heuristics](01-heuristics.md) → [02 — State Screen](02-state-screen.md) → [03 — County Screen](03-county-screen.md) → [04 — Signal Inventory](04-signal-inventory.md) → [05 — Entitlement Paths](05-entitlement-paths.md).
+This is doc 00 of the framework. Continue: [01 — Heuristics](01-heuristics.md) → [02 — State Screen](02-state-screen.md) → [03 — County Screen](03-county-screen.md) → [04 — Signal Inventory](04-signal-inventory.md) → [05 — Entitlement Paths](05-entitlement-paths.md) → [06 — Project Spec](06-project-spec.md) → [07 — Federal Layer](07-federal-layer.md).
