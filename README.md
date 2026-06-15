@@ -7,7 +7,7 @@
 [![Status](https://img.shields.io/badge/status-pre--pilot-2f6fed)](./ROADMAP.md)
 [![Focus](https://img.shields.io/badge/focus-entitlement%20durability-111111)](./framework/00-the-question.md)
 [![Mode](https://img.shields.io/badge/mode-manual%20before%20automation-5b8c5a)](./ROADMAP.md)
-[![Framework](https://img.shields.io/badge/framework-v1%20frozen-8a63d2)](./framework/00-the-question.md)
+[![Framework](https://img.shields.io/badge/framework-v1.1%20calibrated-8a63d2)](./framework/04-signal-inventory.md)
 [![Pilot](https://img.shields.io/badge/pilot-WY%20·%20SD%20·%20NC-d97706)](./results/scorecard.md)
 
 </div>
@@ -90,7 +90,7 @@ The repo is organized to match that sequence:
 
 | Category | Current state |
 | --- | --- |
-| Framework | v1 frozen (docs 00–07) — next revision only after pilot evidence |
+| Framework | **v1.1 — signal inventory ([04](framework/04-signal-inventory.md)) calibrated against the 3-county pilot**; docs 00–03, 05–07 stable. Scale-threshold promoted, transmission demoted, friendliness-grade topology-gated |
 | Stage | Pre-pilot |
 | Pilot states | Wyoming, South Dakota, North Carolina |
 | Pilot counties | Sweetwater County WY, Fall River County SD, Jones County NC |

@@ -1,7 +1,8 @@
 # State Screen: {STATE}
 
 **Date:** | **Researcher:** | **Status:** draft / counsel-reviewed
-**Method:** [framework/02 — State Screen](../../framework/02-state-screen.md). All findings are hypotheses for local land-use counsel until marked counsel-reviewed. Cite statute/case for every claim.
+**Method:** [framework/02 — State Screen](../../framework/02-state-screen.md). All findings are hypotheses for local land-use counsel until marked counsel-reviewed.
+**Audit standard (required):** every claim below is annotated to a specific official primary source (section + quoted operative phrase) and tagged ✅ verified against the official source · 🔍 draft from a secondary/finding-aid source · ❓ open question. Un-annotated claims are not findings. See the [source-annotation rule](../../ops/README.md#execution-modes).
 
 ## Verdict
 

@@ -28,6 +28,10 @@ The deepest version of "can it keep the yes" is a single statute-reading questio
 
 A stability guarantee on paper is a worthless surface signal. Próspera (Honduras) held a 50-year legal-stability guarantee embedded in the ZEDE framework; the framework was repealed in 2022 anyway, and the remedy is a decade-long arbitration for *damages*. Damages-only durability means you can be removed — you just get paid. If the goal is a city that exists rather than a settlement check, the instrument must vest as a property or contract interest whose breach is enjoinable, and it must vest *before* opposition organizes.
 
+## Evidence standard
+
+The breach test is a claim about *law*, so every claim that feeds it must be auditable to law. The project's standing rule: **every factual or legal finding in `results/` is annotated to a specific official primary source** — section + quoted operative phrase — and tagged ✅ verified / 🔍 secondary-draft / ❓ open. A warm assertion with no official citation is the documentary equivalent of a warm meeting: not a durable finding. Full standard in [ops/README](../ops/README.md#execution-modes); enforced in the [ROADMAP standing checks](../ROADMAP.md).
+
 ## Reading order
 
 This is doc 00 of the framework. Continue: [01 — Heuristics](01-heuristics.md) → [02 — State Screen](02-state-screen.md) → [03 — County Screen](03-county-screen.md) → [04 — Signal Inventory](04-signal-inventory.md) → [05 — Entitlement Paths](05-entitlement-paths.md) → [06 — Project Spec](06-project-spec.md) → [07 — Federal Layer](07-federal-layer.md).

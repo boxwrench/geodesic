@@ -1,0 +1,24 @@
+SOURCE URL: https://cms7files.revize.com/sweetwaterwy24/March%20PZ%20Staff%20Report.pdf
+RETRIEVED: 2026-06-13 via web_fetch. Mode-B DRAFT (secondary/unverified).
+BODY: Sweetwater County Planning & Zoning Commission
+DOC TYPE: Combined Agenda + Staff Report (PZ 03/12/2025; BCC 03/18/2025). Embeds SIGNED MINUTES of the Jan 8, 2025 P&Z regular meeting.
+
+=== AGENDA (PZ 03/12/2025) ===
+PH#1 Stewart L. Grow Jr. & Corner Property LC - Partial Vacation of Covered Wagon Park Subdivision (8.55 ac). Staff rec APPROVAL (Rec 25-03-ZO-01), contingent on companion ZMA + plat.
+PH#2 Greg Day / Hunt Day Engineering (now req by Grow) - ZMA MH & RR(LS-5) to Commercial (C), 8.55 ac, to allow Maverik convenience store. Staff rec APPROVAL (Rec 25-03-ZO-02), contingent.
+PH#3 Stewart Grow / Todd Meyers-Maverik Inc - Maverik Sweetwater Subdivision FINAL PLAT (1 lot, 8.56 ac). Public Works (Legerski) flagged multiple unresolved engineering issues (cost estimate, road section vs WYDOT, drainage report, construction-drawing errors). Staff rec APPROVAL w/ 4 conditions incl revised drainage report + financial assurance.
+PH#4 YESCO / Krystalynn Williams - Sign Height & Sq Footage Variance Sec 13.F: requesting 125' pylon sign (code max 40' / 300 sq ft) for Maverik on US HWY-30 (80 mph). Staff rec APPROVAL w/ conditions (contingent on the 3 companion approvals). SCALE NOTE: 125' sign is ~3x code ceiling.
+Board Actions (APPROVED at Feb 18 2025 BCC): Certification of Language Amendment to Sec 3,4I,5F,7,11D,21 (Land Use Dept).
+Other Business: Jackalope Wind Q&A Discussion (utility-scale wind project; open house was Jan 28 2025, Rock Springs).
+
+=== EMBEDDED SIGNED MINUTES: PZ Jan 8, 2025 ===
+Members present (5): Rob Gerrard (Chair), Jon Jasperson, Mark Lyon, Kelly Richards (Vice), KC Doak. Staff: Bingham (Dir), Brown (Planner), Gene Legerski (Public Works Dir), DeLeon (Atty).
+Staff report accepted 5-0. Dec 11 2024 minutes approved 5-0.
+Communications: APPROVED by BCC Dec 17 2024: MountainWest Overthrust Pipeline ZMA A & I-2 to I-2; NOI Language Amendment Sec 3,4I,5F,7,11D,21.
+PH#1 Partial Vacation Covered Wagon Sub - Grow/Corner Property. Maverik (Todd Meyers) spoke supportively; tied to ZMA + plat for a Maverik store; working with WYDOT on access. Commissioner Doak: "supportive of development" BUT outstanding Jamestown-Rio Vista water-district issues block it. Existing 1980s lots non-conforming. Public comment: Angela Wilson (resident/realtor) raised HIGHWAY QUALITY + TRAFFIC concerns, criticized Loves Travel Stop signage as dangerous, but wanted plat cleaned up for development. Kael Jasperson (Jamestown-Rio Vista water) cited concern over making their lots developable; deal pending. Commission went into EXECUTIVE SESSION 5-0. Doak moved to POSTPONE; Maverik WITHDREW its applications and left; Grow remained. Motion to POSTPONE carried 5-0.
+PH#2 ZMA MH & RR(LS-5) to C - Maverik withdrew; Grow remained. POSTPONED 5-0 (Grow can re-apply once outstanding issues resolved).
+PH#3 Maverik Sweetwater Sub FINAL PLAT - Legerski said his review issues are "minor," progress made. POSTPONED 5-0.
+Other Business: Jackalope Wind Project open house announced (Jan 28 2025, Holiday Inn, Rock Springs).
+Adjourned 11:48 am.
+OUTCOMES (Jan 8 2025 PZ): 3 land-use hearings; 0 approved; 0 denied; 3 POSTPONED (continued). Public commenters opposing/concerned: 1 distinct citizen (Angela Wilson - traffic/highway/signage). Water district raised developability concern. Applicant (Maverik) withdrew under friction.
+MARKERS: Doak's "I'm supportive of development, but [water-district issue] ..." = friendly-disposition-but-gated. Multi-agency entanglement (water district + WYDOT + Public Works engineering) drove continuance, NOT NIMBY opposition.

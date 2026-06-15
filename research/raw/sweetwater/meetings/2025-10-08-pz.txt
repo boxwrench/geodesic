@@ -1,0 +1,25 @@
+SOURCE URL: https://cms7files.revize.com/sweetwaterwy24/Agendas-Land%20Use/October%208,%202025%20PZ%20Staff%20Report%20and%20Agenda.pdf
+RETRIEVED: 2026-06-13 via web_fetch. Mode-B DRAFT (secondary/unverified).
+BODY: Sweetwater County Planning & Zoning Commission
+DOC TYPE: Combined Agenda+Staff Report (PZ 10/08/2025; BCC 10/21/2025). Embeds SIGNED MINUTES of Sept 10, 2025 P&Z meeting. Also appends the SOLAR/WECS language-amendment text (energy-siting posture).
+
+=== AGENDA (PZ 10/08/2025) ===
+PH#1 Adonis Bourdon & Eliza Frias - ZMA I-1 (Light Industrial) to RR (Rural Residential), ~25.70 ac, Sec 23 T25N R106W, Farson/Eden. Down-zoning to residential. WYDOT/Lumen/AML no objection. Staff rec APPROVAL (Rec 25-10-ZO-01).
+PH (Land Use Dept) - Language Amendment: Sec 7 (CUP Solar Energy Facilities), Sec 17 (Wind Energy Conversion Systems/WECS), Sec 21 (Definitions) - wildlife-consistency + "significant adverse impact" metrics.
+Board Actions (APPROVED at Sept 16 2025 BCC): TransWest Express construction-permit extension variance (25-09-ZO-01); Land Use Dept min-district variance (25-09-ZO-02); Land Use Dept ZMA A to C (25-09-ZO-03).
+
+=== EMBEDDED SIGNED MINUTES: PZ Sept 10, 2025 (4 commissioners; Doak + Slaughter excused) ===
+Members: Mark Lyon (Chair), Jon Jasperson, Tim Sheehan, Tiffany Cordova. Staff: Bingham, DeLeon, Brown, Van Matre.
+Staff report accepted 4-0. Aug 13 2025 minutes approved 4-0.
+Board Actions noted (APPROVED at Aug 19 2025 BCC): Navarrete setback variance (25-08-ZO-01); Amante/Clyde ZMA A to MD-1 gravel-pit expansion to 160 ac (25-08-ZO-02); Aimone ZMA R-2/SF to RR (25-08-ZO-03).
+PH#1 TransWest Express LLC - VARIANCE Sec 4.B to extend Construction Permit 2025-044 expiration from Oct 9 2026 to Dec 31 2030. TransWest = 732-mile (~800 mi total Sinclair WY -> south of Las Vegas NV), 4 states, high-voltage transmission line; construction ~48 months; FERC/BLM/BOR regulated; began 2023; SWC permits valid 18 mo, extension to 48 mo. Rep Nancy Smith presented. No public opposition. Sheehan moved approve. APPROVED 4-0.
+PH#2 Land Use Dept (for owners Richhpal & Karampal Singh) - VARIANCE Sec 5.B min district size, ~3.5 ac, to allow ZMA A to C (historical commercial use; food truck). Staff support. Sheehan moved approve. APPROVED 4-0.
+PH#3 Land Use Dept (Singh) - ZMA A to C, 16610 Red Desert Road, Wamsutter. "clean up zoning." Jasperson moved approve. APPROVED 4-0 ("carries 4-01" typo).
+Other Business: Bingham flagged upcoming wind/solar language amendment ("big issues are the migration areas; WY Game & Fish will be more involved"); subdivision regs in progress.
+Adjourned 10:31 am.
+OUTCOMES (Sept 10 2025 PZ): 3 land-use hearings; 3 APPROVED; 0 denied; 0 continued. 0 opposing public commenters. Scale ceiling: TransWest 732-mile transmission line (linear infrastructure, county role = construction-permit timing only).
+
+=== ENERGY-SITING POSTURE (from appended Solar/WECS language amendment) ===
+SOLAR Energy Facility standards (Sec 7.9): NOT within GMA; NOT within Greater Sage Grouse Core Areas (Gov Order 2011-5); NOT within wildlife migration corridors (EO 2020-1) absent WY Game&Fish-approved mitigation; min lot 40 ac; max height 25'; on-site lines underground.
+WECS (wind, Sec 17): excluded from Wilderness Study Areas, ACECs, parks, historic trails, GMA; sage-grouse core exclusion; viewshed analysis (25 vantage points); WY Stat 18-5-504 compliance; heavy WY Game&Fish + federal (BLM/USFS/USFWS/BOR) coordination; significant-shadow-flicker cap 30 hrs/yr.
+INTERPRETATION: utility-scale solar/wind is heavily wildlife-gated at the county level AND large generation also routes through WY Industrial Siting (state). County land-use "scale ceiling" for energy is constrained by sage-grouse/migration overlays, not board hostility.

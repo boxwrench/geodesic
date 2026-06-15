@@ -39,6 +39,8 @@ Regex outputs are noisy per-meeting but reliable in 24-month aggregate. The scri
 
 LLM reads only: (a) every land-use item the regex flagged ambiguous, (b) a random 20% sample of land-use discussions for tone. It answers a fixed schema: board tone toward applicants (deferential / neutral / skeptical / hostile), opposition type (none / individual / organized), staff competence signals, any project comparable to ours discussed. Human spot-checks 10% of AI outputs against the source.
 
+**Learning step (feeds the [friendliness-marker loop](../research/friendliness-markers.md)):** beyond the fixed schema, the reader flags **any tell not already in the marker tables** — a phrase, board habit, or recurring objection shape that seems to predict the outcome — and logs it as a `candidate` marker with the meeting cite. The grader's keyword lists (Stage 3) are *not* assumed complete; they grow as markers graduate (recur in ≥3 meetings across ≥2 counties and track outcomes). This is how "what friendliness looks like" is learned from evidence rather than hard-coded, sharpening the grade and the search over time.
+
 ## Stage 5 — The grade
 
 **Development Friendliness Grade (0–100):**

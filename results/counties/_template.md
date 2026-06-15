@@ -3,6 +3,7 @@
 **Date:** | **Researcher:** | **Funnel stage reached:** Screen / Filter / Validate / Commit / KILLED
 **Method:** [framework/03 — County Screen](../../framework/03-county-screen.md). Prerequisite: state screen exists in [results/states/](../states/).
 **Time spent per signal is logged** — it calibrates the [signal inventory](../../framework/04-signal-inventory.md).
+**Audit standard (required):** every finding cites a specific official primary source and is tagged ✅ verified · 🔍 secondary-draft · ❓ open. See the [source-annotation rule](../../ops/README.md#execution-modes).
 
 ## Verdict
 

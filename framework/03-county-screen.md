@@ -11,6 +11,14 @@ Counties that survive the [state screen](02-state-screen.md) enter the eliminati
 | 3. Validate | 1 week | Physical/economic reality of extending services? | No water source within economic pipeline distance; no path to high-voltage transmission; severe geological constraints |
 | 4. Commit | 1 month | Who are the veto players and what do they want? | Organized funded opposition; environmental NGO interest; split commission with election inside 18 months |
 
+### Kill override — a kill is a hypothesis, not a verdict
+
+Every 🔴 is a *recorded hypothesis* that the candidate is dead, made from the cheapest evidence available at that stage. Cheap evidence is sometimes wrong (a misread basin status, a stale FEMA layer, a closed basin that has a transfer/exchange path, a "no assembly" call that a single landowner conversation reverses). So **any kill can be overridden by a human with a documented reason** — the engine never silently discards a candidate forever.
+
+An override must record: **who** overrode, **the date**, **the specific reason** the original kill evidence was wrong or surmountable, and **the new evidence** (audit-tagged per the [source-annotation rule](../ops/README.md#execution-modes)). On override the candidate **re-opens at the stage it was killed** and proceeds normally; the original kill and the override both stay in the file as a trail. Overrides are logged in the locale file and surfaced on the [scorecard](../results/scorecard.md) (♻️). This is the human-in-the-loop escape valve the whole funnel depends on — automation proposes kills cheaply; humans retain the final say with their reasoning on the record.
+
+**Pilot mode — kills are data, not eliminations.** The funnel above describes *live* operation. During the [pre-pilot/pilot](../ROADMAP.md) the screen does **not** stop on a kill: a 🔴 is recorded as a finding (evidence for the principal + calibration of whether the signal discriminates), and *every signal is still run on every pilot county*. This is deliberate — the pilot's product is comparative data and signal calibration, which a county dropped at Stage 1 would stop generating. Treat pilot-mode as "all kills held open by default"; real elimination begins when the funnel goes live.
+
 ## The county topology matrix
 
 Classify within the first 30 minutes:

@@ -1,0 +1,17 @@
+SOURCE URL: https://cms7files.revize.com/sweetwaterwy24/Agendas-Land%20Use/June%202025%20PZ%20Staff%20Report%20and%20Agenda-%20Amended.pdf
+RETRIEVED: 2026-06-13 via web_fetch (large PDF, grepped). Mode-B DRAFT (secondary/unverified).
+BODY: Sweetwater County Planning & Zoning Commission
+DOC TYPE: Combined Agenda+Staff Report (PZ 06/11/2025; BCC 06/17/2025). Embeds SIGNED MINUTES of May 14, 2025 P&Z meeting.
+
+=== EMBEDDED SIGNED MINUTES: PZ May 14, 2025 (4 commissioners) ===
+Staff report accepted (Lyon/Richards). April 15(/9) 2025 minutes approved 4-0.
+Board Actions (APPROVED at May 20 2025 BCC): CUP Campground - Jared Triplett (and others).
+PH#1 Jared Triplett - CUP RV CAMPGROUND (11 sites + later admin bldg, ~1.01 ac), McKinnon, Agriculture zoning, intersection McKinnon Rd (CR-1) & US HWY 414.
+  PUBLIC OPPOSITION (most contentious meeting in dataset): Petition of Dissent listing 10 concerns: (1) safety of children/school-bus stop, (2) trespassing across fields/env+property, (5) unfair burden on residents, (7) trespassing, (9) long-term occupancy / man-camp risk, (10) traffic congestion, plus fireworks/campfire, weak well water, accident potential on HWY 414, "peaceful rural character."
+  Distinct opposing commenters: Charles Bergmeier (resident), Stephanie Anderson (resident), Shilo Johnson (resident) = 3 named residents against + petition signers. Father Mark Triplett spoke IN SUPPORT. Undersheriff Tomich: campgrounds increase calls-for-service; no resident deputies. State Reps Heiner & Brady wrote SUPPORT letters (tourism/econ dev).
+  Applicant Jared Triplett addressed each concern (fencing 6-8' solid, secured dumpster, recreational-only, seasonal, working w/ Public Works on access; WYDOT closing HWY 414 access, using CR-1).
+  Board: Richards pressed on man-camp/long-term -> applicant confirmed recreational; Gerrard: "understands neighborhood concerns however the property owner also has [rights]"; only 11 spots, valid concerns but manageable.
+  Lyon moved to approve w/ staff recommendations. Jasperson seconded. APPROVED 4-0.
+  Note: New campground/RV regulations to be heard in June (language amendment forthcoming).
+OUTCOMES (May 14 2025 PZ): 1 land-use hearing; 1 APPROVED; 0 denied; 0 continued. Distinct opposing public commenters: >=3 residents + dissent petition (HIGH contention; keywords: traffic, character, safety, children, trespassing). OBJECTION OVERRIDDEN -> APPROVED 4-0 w/ conditions (28-day max stay, WDEQ septic). Scale: 11-site campground on 1.01 ac.
+MARKERS (candidate): board chair "the property owner also has [property rights]" framing = pro-development default even against organized neighbor opposition; economic-development language echoed by state legislators; conditions used to manage (max-stay cap) rather than deny.

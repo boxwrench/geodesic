@@ -1,7 +1,7 @@
 # Game Plan — Step 2: Signal Calibration
 
 **Goal:** an evidence-based update to [framework/04 — Signal Inventory](../framework/04-signal-inventory.md) and the final scorecard schema.
-**Input:** the per-signal time logs and findings from the three pilot county files.
+**Input:** the per-signal time logs and findings from the three pilot county files, **plus the running [pilot-lessons ledger](../research/pilot-lessons.md)** (lessons captured during the studies — SIGNAL entries feed the re-score directly) **and the [friendliness-marker loop](../research/friendliness-markers.md)** (re-weight graduated markers by whether they actually moved a county ranking; demote recurring non-discriminators to `noise`).
 **Budget:** half a day. **Mode:** B throughout.
 
 ## Procedure
