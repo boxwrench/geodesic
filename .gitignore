@@ -1,0 +1,24 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.tmp
+*.bak
+.idea/
+.vscode/
+
+# Python (any local generators / analysis scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local scratch — keep generated deliverables in results/ tracked,
+# but ignore ad-hoc working files dropped at the repo root.
+/scratch/
+/tmp/
+
+# NOTE: results/principal-input-handoff.pdf is intentionally TRACKED
+# (it is a deliverable, not a build artifact). Do not add *.pdf here.

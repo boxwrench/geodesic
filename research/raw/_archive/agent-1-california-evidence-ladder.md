@@ -1,6 +1,6 @@
 # Raw output — Agent 1 (California evidence ladder)
 
-> Prompt: the core question from [framework/00](../../framework/00-the-question.md), posed with no project context. Preserved verbatim for traceability; claims unverified.
+> Prompt: the core question from [framework/00](../../../framework/00-the-question.md), posed with no project context. Preserved verbatim for traceability; claims unverified.
 
 ---
 

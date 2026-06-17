@@ -1,6 +1,6 @@
 # Raw output — Agent 2 (regime-first analysis)
 
-> Prompt: the core question from [framework/00](../../framework/00-the-question.md), posed with no project context. Preserved verbatim for traceability; claims unverified (note: some cited sources are non-authoritative).
+> Prompt: the core question from [framework/00](../../../framework/00-the-question.md), posed with no project context. Preserved verbatim for traceability; claims unverified (note: some cited sources are non-authoritative).
 
 ---
 

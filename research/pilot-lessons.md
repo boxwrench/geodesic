@@ -14,7 +14,7 @@
 
 ### L1 — Official text is mandatory for *procedural* claims, not just legal ones
 - **Type:** METHOD · **From:** WY / Sweetwater state screen (2026-06-13)
-- **Evidence:** The draft (built from Justia + secondary indexes) stated WY town **incorporation** runs through the **district court**. Official Title 15 text (§ 15-1-204/-205, ✅ [cached](raw/2026-06-13-wy-title15-cities-towns-official-extract.md)) shows it runs through the **board of county commissioners + an election of residents** — a materially different veto stack.
+- **Evidence:** The draft (built from Justia + secondary indexes) stated WY town **incorporation** runs through the **district court**. Official Title 15 text (§ 15-1-204/-205, ✅ [cached](raw/sweetwater/2026-06-13-wy-title15-cities-towns-official-extract.md)) shows it runs through the **board of county commissioners + an election of residents** — a materially different veto stack.
 - **Transferable rule:** Secondary legal indexes paraphrase *holdings* tolerably but **misstate procedure and "who decides"** often enough that a procedure/veto-stack claim must never reach ✅ without the official statute. Applies to SD and NC incorporation/annexation paths too — read the official code before drawing the veto stack.
 - **Action:** already encoded in the [source-annotation rule](../ops/README.md#execution-modes) (official source = source of record). No framework change needed; this is a discipline reminder for SD/NC.
 
