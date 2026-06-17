@@ -18,7 +18,7 @@ Every signal is scored on two axes — **discriminating power** (does it actuall
 | Floodplain extent at candidate sites | Site | FEMA NFHL | Medium | Medium *(untested directly)* |
 | Protected/conserved land | Site | PAD-US, NCED | Medium | Medium-High — protected-land density was a real siting constraint (Jones forests, Sweetwater ACEC); see veto-holder note below |
 | Population, growth rate, tax-base concentration | County | Census, BEA, county CAFRs | Medium | Medium — tax-base concentration informed the salvation-vs-threat read (all 3 single-industry); useful context, not a gate |
-| **Meeting-record host tier** (Granicus/Legistar ▸ YouTube ▸ PDF ▸ records-only) | County | County site / portal probe | *(new)* | Low-Medium (capacity proxy, [L2](../research/pilot-lessons.md)) — cheap to observe at discovery; predicts grading cost |
+| **Meeting-record infrastructure** (4 dims: format/tone-fidelity · availability/access · coverage/diversity · capacity read) | County | County site / portal probe → [meeting-records registry](../results/meeting-records.md) | *(new)* | Low-Medium as a *capacity proxy* ([L2](../research/pilot-lessons.md)), but **rising in value as a standing national dataset** ([L20](../research/pilot-lessons.md)): availability/format/quality vary enormously county-to-county (pilot: 3 counties, 3 infrastructures, **0 verbatim transcripts**), predict grading cost *and tone-validity*, and map where the [browser-fetch tool](step-3-automation.md) is needed. Track all four dims at discovery, not just the host label. |
 
 ## Tier B — Semi-automatic (LLM-assisted, targeted)
 

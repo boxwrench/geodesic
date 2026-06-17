@@ -7,7 +7,16 @@ Watching planning board meetings is the project's proven highest-signal qualitat
 
 ## Stage 1 — Discover (Mode C, once per county, ~30 min)
 
-Find where meetings live, in this order: Legistar/Granicus subscription (check `webapi.legistar.com/v1/{county}` and the county site footer) → county YouTube channel → agenda/minutes PDFs on the clerk's site → records request. Log the answer in the county file; *PDF-only or records-request-only is itself a capacity signal.*
+Find where meetings live, in this order: Legistar/Granicus subscription (check `webapi.legistar.com/v1/{county}` and the county site footer) → county YouTube channel → agenda/minutes PDFs on the clerk's site → Google-Drive/Vimeo unstructured → records request. Log the answer in the county file **and in the [meeting-records registry](../results/meeting-records.md)** — *where and how records live is itself a capacity signal and a standing national tracking dimension* ([L2](../research/pilot-lessons.md), [L20](../research/pilot-lessons.md)).
+
+**Record all four dimensions, not just the host (the pilot proved no two counties are alike and none had clean verbatim transcripts — [L20](../research/pilot-lessons.md)):**
+
+1. **Format & tone-fidelity** — video+captions ▸ audio ▸ verbatim minutes ▸ summary minutes ▸ agendas-only. *Can tone be read, or only counts/outcomes?* (Determines whether the Stage-4 board-tone component is valid.)
+2. **Availability & access** — public vs. **gated** (JS-rendered Granicus `ViewPublisher`, Vimeo, Google-Drive PDFs, login/PACER); 24-month depth; **script-retrievable vs. needs-human/browser.** (Gated portals are the recurring pipeline wall — [L14](../research/pilot-lessons.md).)
+3. **Coverage & diversity** — *which* bodies are recorded (Commission / P&Z / Planning Board) and **is the land-use gate body itself captured**? (A rich video archive of the wrong body is useless.)
+4. **Capacity-signal read** — what the host tier + coverage imply about institutional capacity, feeding the [topology classification](../framework/03-county-screen.md).
+
+Capture these in the registry's four-dimension schema so every county screened adds to a comparable national map. *PDF-only, Drive/Vimeo, or records-request-only are progressively lower capacity tiers.* **Pair every record assessment with the topology class** — a rich record in a no-zoning county still can't produce a valid friendliness ranking ([L15](../research/pilot-lessons.md)).
 
 ## Stage 2 — Acquire (Mode A, scripted, $0 tokens)
 
