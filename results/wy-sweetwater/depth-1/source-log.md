@@ -17,7 +17,10 @@ Status: initial source bundle; parcel geometry not yet pulled
 | Rocky Mountain Power has official Wyoming large-service thresholds at 25-199 MW and >200 MW. | https://www.rockymountainpower.net/working-with-us/large-service-requests.html | 2026-06-20 | Utility process page | confirmed | RMP/PSC publishes revised thresholds or large-load tariff after 2026-06-20. |
 | >200 MW is the strategic power cliff; entry below 25 MW avoids the large-load process. | RMP large-service page; local transmission cache | 2026-06-20 | Utility process page + synthesis | confirmed for threshold; open for actual headroom | PacifiCorp study shows cheap capacity at larger load or new state large-load rules change requirements. |
 | Sage-grouse / ACEC / RMP overlays are layout-shaping constraints, not county-political constraints. | Local federal-layer cache; BLM/WGFD source paths listed there | 2026-06-20 | Cached federal-layer pull | probable | Per-AOI GIS clip shows candidate block avoids core areas and RMP constraints, or falls inside a hard exclusion. |
-| Exact candidate parcel polygon is still missing. | Current repo state | 2026-06-20 | Gap finding | open | County GIS / assessor / Regrid / title pull identifies section list and owners. |
+| Official parcel ownership data is available through the county MapServer shapefile download. | Sweetwater County official site -> TerraGIS MapServer -> `https://maps.terragis.net/sweetwater/download/ownership.zip` | 2026-06-20 | County parcel ownership shapefile | confirmed | County removes or materially changes the download; title/deed search contradicts parcel owner names. |
+| Multiple above-threshold Sweetwater-related blocks exist in the Green River / Rock Springs / Point of Rocks corridor search extents. | Derived from `ownership.zip` DBF/SHP; see `aoi-candidates-2026-06-20.md` | 2026-06-20 | County parcel shapefile analysis | probable | Geometry clip or title review shows blocks are not contiguous/buildable or not controlled by the expected entity. |
+| BLM's approved Rock Springs RMP is the correct federal overlay source path for the candidate blocks. | https://www.blm.gov/press-release/blm-updates-management-plan-rock-springs-field-office | 2026-06-20 | BLM official release | confirmed as source path; overlay clip open | ePlanning/GIS layer pull shows candidate blocks are outside the most relevant RMP constraints. |
+| Exact candidate AOI map is still missing. | Current repo state after parcel-source pull | 2026-06-20 | Gap finding | open | BLM/RMP/sage-grouse/FEMA/NWI/transmission overlays are clipped against the ranked parcel blocks. |
 
 ## Stable Source Paths
 
@@ -26,6 +29,10 @@ Status: initial source bundle; parcel geometry not yet pulled
 - BLM Dry Creek Trona approval: https://www.blm.gov/press-release/blm-approves-dry-creek-trona-mine-sweetwater-county-wyoming
 - Reclamation Fontenelle operations: https://usbr.gov/uc/water/crsp/cs/ftd.html
 - Wyoming SEO e-Permit instructions: https://seo.wyo.gov/home/e-permit-and-instructions
+- Sweetwater County official site, Online Map Server link: https://www.sweetwatercountywy.gov/
+- Sweetwater County TerraGIS MapServer: https://maps.terragis.net/sweetwater/
+- Sweetwater County parcel ownership shapefile: https://maps.terragis.net/sweetwater/download/ownership.zip
+- BLM Rock Springs RMP release: https://www.blm.gov/press-release/blm-updates-management-plan-rock-springs-field-office
 - BLM Rock Springs ePlanning project path from cache: https://eplanning.blm.gov/eplanning-ui/project/13853/510
 - Local federal cache: `research/raw/sweetwater/2026-06-13-federal-layer-pull.md`
 - Local water cache: `research/raw/sweetwater/2026-06-13-stage3-water-economics.md`

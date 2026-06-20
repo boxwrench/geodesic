@@ -9,7 +9,9 @@ Can we define a real, optionable 5,000-10,000 acre Green River / I-80 corridor b
 
 ## Current Answer
 
-Not yet. The ownership thesis is strong, but the actual parcel or section list is still open. The next search is not a listing search. It is a section-level parcel/ownership overlay against the Sweetwater / New URC surface estate, BLM surface, sage-grouse core areas, Rock Springs RMP designations, Green River conveyance distance, and transmission proximity.
+Partially yes. The official county parcel shapefile identifies multiple above-threshold Sweetwater-related blocks in the Green River / Rock Springs / Point of Rocks search extents. The exact buildable AOI is still open because those blocks have not yet been clipped against BLM surface, sage-grouse core areas, Rock Springs RMP designations, FEMA/NWI, Green River conveyance distance, and transmission proximity.
+
+Detailed candidate table: `aoi-candidates-2026-06-20.md`.
 
 ## Candidate-Area Bias
 
@@ -25,7 +27,7 @@ Not yet. The ownership thesis is strong, but the actual parcel or section list i
 | Gate | Pass Condition | Current Status | Next Pull |
 |---|---|---|---|
 | Seller | Single or controlled seller, ideally Sweetwater / New URC fee surface | probable but unproven | County parcel/deed pull or paid parcel data |
-| Size | 5,000-10,000 acre entry block, optionable for expansion | open | Section-level AOI map |
+| Size | 5,000-10,000 acre entry block, optionable for expansion | initial pass found several above-threshold blocks | Section-level AOI map and overlay clip |
 | Basin | Green River side / feasible conveyance to Green River or JPWB node | open | AOI against river/JPWB distance |
 | Federal surface | Minimal BLM critical-path exposure | open | BLM surface + land-tenure map |
 | RMP / ACEC | Outside worst ROW exclusion/avoidance or ACEC constraints | open | BLM Rock Springs RMP map clip |
@@ -47,11 +49,21 @@ Create a map or table with candidate sections:
 section/township/range | owner | surface estate | mineral notes | BLM adjacency | RMP overlay | sage-grouse overlay | distance to Green River/JPWB | distance to HV transmission | notes
 ```
 
+## Initial Candidate Shortlist
+
+| Code | Owner | Account | PIDN | Acres | Why it matters |
+|---|---|---|---|---:|---|
+| GR-1 | AGGIE GRAZING LLC | R0110554 | 1707-01-1-00-016-00 | 9,222.60 | Best apparent Green River-side Sweetwater-related block above 5,000 acres. |
+| GR-2 | SWEETWATER SURFACE LLC | R0155556 | 1808-09-3-00-018-00 | 6,183.25 | Direct Sweetwater Surface owner and above entry acreage threshold. |
+| RS-1 | AGGIE GRAZING LLC | R0111031 | 1805-01-1-00-010-00 | 9,145.35 | Strong Rock Springs-side block near services/labor/power. |
+| POR-1 | AGGIE GRAZING LLC | R0124294 | 2001-01-1-00-011-00 | 6,165.70 | Point of Rocks / transmission-corridor fallback; water path needs checking. |
+
 ## Current Blocker
 
-Public web search did not locate a clean Sweetwater County parcel endpoint in this pass. The next attempt should use one of:
+Parcel ownership is no longer blocked. The new blocker is GIS overlay clipping:
 
-- direct browser search through the county assessor/GIS site;
-- county clerk/assessor parcel export request;
-- paid normalized parcel source such as Regrid;
-- title/landman pull once an AOI is sketched from ownership maps.
+- BLM surface and land-tenure map;
+- Rock Springs RMP ACEC / ROW-exclusion / ROW-avoidance overlays;
+- WGFD sage-grouse core areas and lek buffers;
+- FEMA NFHL and USFWS NWI for the specific candidate blocks;
+- transmission/substation distance and feasible water conveyance.
