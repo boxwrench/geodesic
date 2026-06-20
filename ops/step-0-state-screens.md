@@ -3,7 +3,7 @@
 **Goal:** one completed [state file](../results/states/_template.md) each for WY, SD, NC, answering the [four variables + breach test](../framework/02-state-screen.md) with verified citations.
 **Who can run this:** anyone careful with legal text + AI assistance. No legal training required to *draft*; counsel review converts draft → reviewed.
 **Budget:** ~4–6 hours per state (Tasks 1–5), plus counsel review.
-**Acceptance criteria:** every claim in the state file cites a specific statute section or case, verified by a human against the official legislature site; verdict paragraph written; open questions listed for counsel.
+**Acceptance criteria:** every claim in the state file cites a specific statute section or case, verified by a human against the official legislature site; water findings distinguish new rights from acquirable/transferable existing rights; provenance block completed; verdict paragraph written; open questions listed for counsel.
 
 ## Task 1 — Vesting timing
 
@@ -48,15 +48,24 @@
 - **Output:** state file §"Boundary gatekeeper" + §"Paths"
 - **Time:** 60–90 min
 
-## Task 5 — Breach test + water doctrine + verdict
+## Task 5 — Breach test + water doctrine + acquisition path + verdict
 
-- **Mode:** B
+- **Mode:** B/C
 - **Procedure:**
   1. Per instrument found above: what claim accrues on revocation and is it enjoinable or damages-only? (Often the hardest question — where unclear, write the question for counsel rather than guessing.)
   2. Record water doctrine and the permit authority + database ([registry](data-sources.md#water-state-specific)).
-  3. Write the verdict paragraph: strongest durable instrument, spend stage, residual kill risks.
+  3. Separate four water paths: new appropriations/permits; purchase or lease of existing rights; transfer/change-of-use/change-place constraints; land acquisition with attached rights.
+  4. If new rights appear unavailable, do not label water a kill until the transfer/acquisition path has been checked or explicitly marked unknown.
+  5. Write the verdict paragraph: strongest durable instrument, spend stage, residual kill risks.
 - **Output:** state file §"Breach test," §"Water," §"Verdict"
 - **Time:** 60–90 min
+
+## Task 5.5 — Provenance note
+
+- **Mode:** B/C
+- **Procedure:** complete the state file provenance block before status can move beyond draft. Record autonomous steps, sources used, principal/team assumptions, inferences, and items requiring counsel, engineering, or human confirmation.
+- **Output:** state file §"Provenance"
+- **Time:** 10 min
 
 ## Task 6 — Counsel review
 

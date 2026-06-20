@@ -4,6 +4,14 @@
 **Method:** [framework/02 — State Screen](../../framework/02-state-screen.md). All findings are hypotheses for local land-use counsel until marked counsel-reviewed.
 **Audit standard (required):** every claim below is annotated to a specific official primary source (section + quoted operative phrase) and tagged ✅ verified against the official source · 🔍 draft from a secondary/finding-aid source · ❓ open question. Un-annotated claims are not findings. See the [source-annotation rule](../../ops/README.md#execution-modes).
 
+## Provenance
+
+- Autonomous steps:
+- Sources used:
+- Principal/team assumptions:
+- Inferences:
+- Requires counsel / engineering / human confirmation:
+
 ## Verdict
 
 *One paragraph: strongest durable instrument obtainable in this state, at what spend stage, and what can still kill it.*
@@ -41,6 +49,10 @@
 
 - Doctrine (prior appropriation / riparian / regulated riparian):
 - Basin/permit authority and database:
+- New rights availability:
+- Existing rights purchase/lease path:
+- Transfer/change-of-use/place-of-use constraints:
+- Land acquisition with attached rights:
 
 ## Available entitlement paths and veto stacks
 

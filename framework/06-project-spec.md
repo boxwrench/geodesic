@@ -14,6 +14,15 @@ The framework screens for a project it must first define. "10–100x larger than
 | Land-use mix | Residential + town core | + light industrial/logistics, commercial | "Whatever industrial + residential" per the originating brief |
 | Jobs on site | ~500 | 15,000+ | Drives industrial siting + labor-pool checks |
 
+## Current-attempt assumptions
+
+These assumptions are specific to the current project and should not be treated as generic Geodesic defaults:
+
+- **Power:** the current project expects to build its own power. Transmission proximity still matters if self-build creates interconnection, generation siting, fuel, legal, or permitting constraints, but weak grid service is not by itself a primary early-screen blocker.
+- **Water:** buying or leasing existing water rights is acceptable, including buying a farm or ranch with rights and redirecting them if lawful and practical. Screens must distinguish lack of new rights from inability to acquire or transfer existing rights.
+- **State authority:** a state-level exemption from local land-use authority is a final-site dealbreaker for this attempt. County friendliness still matters because state actors are unlikely to override a county's current wishes.
+- **Flood/wetlands:** tolerance for floodplain and wetlands uncertainty is low because comparable nearby site work has already been killed or nearly killed by these constraints.
+
 ## Derived demands (order-of-magnitude; engineer must verify)
 
 | Demand | Entry phase | Full build-out | Basis (assumption) |

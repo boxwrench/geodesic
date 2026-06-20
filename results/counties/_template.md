@@ -5,6 +5,14 @@
 **Time spent per signal is logged** — it calibrates the [signal inventory](../../framework/04-signal-inventory.md).
 **Audit standard (required):** every finding cites a specific official primary source and is tagged ✅ verified · 🔍 secondary-draft · ❓ open. See the [source-annotation rule](../../ops/README.md#execution-modes).
 
+## Provenance
+
+- Autonomous steps:
+- Sources used:
+- Principal/team assumptions:
+- Inferences:
+- Requires counsel / engineering / human confirmation:
+
 ## Verdict
 
 *One paragraph: topology classification, best entitlement path, kill status or surviving concerns.*
@@ -13,7 +21,7 @@
 
 | Signal | Finding | Source | Time | Kill? |
 |---|---|---|---|---|
-| Water basin status (West) / wetlands+floodplain proxy (Southeast) | | | | |
+| Water basin status and new-vs-acquirable rights path (West) / wetlands+floodplain proxy (Southeast) | | | | |
 | Tribal/military/protected overlays | | | | |
 | Landownership fragmentation at candidate sites | | | | |
 | Transmission proximity (vs. [spec threshold](../../framework/06-project-spec.md)) | | | | |
@@ -36,6 +44,15 @@
 | Largest project approved in 5 yrs | | |
 | PUD framework exists / length | | |
 | Comp plan recency + growth posture | | |
+
+**County posture depth:**
+
+- Planning commission / zoning commission membership, cadence, recent votes:
+- County board or commission posture on large projects:
+- Recent approvals, rejections, moratoria, litigation, or unusual conditions:
+- Staff recommendation pattern:
+- Repeat public-comment participants / organized opposition:
+- Current friendliness vs. future vulnerability:
 
 **Qualitative (translated per framework/03):**
 - Planner call notes:

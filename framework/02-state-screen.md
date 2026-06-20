@@ -1,6 +1,6 @@
 # 02 — The State Screen
 
-**The state is a more powerful screening unit than the county.** Water doctrine, vesting law, referendum reach, environmental review statutes, and annexation regimes are all set at the state level — and they kill or rescue entire states in an afternoon of statute-reading, before any county work begins. Counties compete on willingness; states determine whether a durable yes is *possible*.
+**The state is a more powerful screening unit than the county.** Water doctrine, water-right transfer rules, vesting law, referendum reach, environmental review statutes, and annexation regimes are all set at the state level — and they kill or rescue entire states in an afternoon of statute-reading, before any county work begins. Counties compete on willingness; states determine whether a durable yes is *possible*.
 
 All claims produced by this screen are **hypotheses for local land-use counsel to confirm**, not legal conclusions. The screen's job is to generate the right questions cheaply.
 
@@ -49,7 +49,7 @@ The single most powerful cheap kill: **(variable 3) + (variable 2)**. A state wi
 
 ## Screen output
 
-One page per state ([template](../results/states/_template.md)) covering: the four variables with citations, breach test per instrument, water doctrine, the available [entitlement paths](05-entitlement-paths.md) and each path's veto stack, and a verdict — *what is the strongest durable instrument obtainable in this state, at what spend stage, and what can still kill it?*
+One page per state ([template](../results/states/_template.md)) covering: the four variables with citations, breach test per instrument, water doctrine and acquisition pathways, the available [entitlement paths](05-entitlement-paths.md) and each path's veto stack, and a verdict — *what is the strongest durable instrument obtainable in this state, at what spend stage, and what can still kill it?*
 
 Reference points from prior analysis (unverified): Texas as near-best onshore intersection of all four variables (Ch. 245 vesting, no mini-NEPA, MUD/special-district tooling, friendly annexation); Utah and Arizona second tier (AZ Prop 207 makes later downzoning compensable — a durability asset). **None of the current pilot states (WY, SD, NC) have been screened yet.**
 

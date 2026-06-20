@@ -20,7 +20,7 @@ Each step has a detailed, hand-off-ready game plan in [ops/](ops/README.md), wit
 
 **Pilot verdict (complete through Stage 4):** **Sweetwater WY is the only genuine survivor** (🟡, absorption-gated at full scale → "enter small, optioned to scale"; the binding veto stack is transactional/federal, not political). **Fall River SD is a confirmed 🔴** — Validate located the kill at *water* (the whole county pumps ~0.80 MGD; no firm source for 6-9 MGD; an analogous withdrawal was denied by the SD Water Management Board) — not rescuable. **Jones NC is no longer a clean §404 kill** (Sackett + NC SB 582 obsoleted the wetlands wall) **but is not a survivor either** — its feasibility is now *entirely scale-dependent* (≤~15k ac could clear; 50k cannot). Everything in `results/` is 🔍 Mode-B draft pending verification + counsel. The originating method, audit rules, and **19** [pilot lessons](research/pilot-lessons.md) are the durable output.
 
-**Immediate next work:** (a) **principal's real build-out scale + phasing** ([framework/06](framework/06-project-spec.md)) is now the gating unknown for all three verdicts — the single highest-value missing input; (b) **second Step-2 calibration pass** to score the now-tested Stage-3/4 signals (L16-L19); (c) one **human/browser gap-clearing session** for the clustered gated portals (SD DANR water-rights, USACE Wilmington §404 DB, county GIS parcel/NWI-by-AOI, USGS Black Hills subarea tables); (d) widen the funnel (TX/UT/AZ) **re-weighted toward larger host counties + firm-water-at-scale**.
+**Immediate next work:** (a) **principal's real build-out scale + phasing** ([framework/06](framework/06-project-spec.md)) is now the gating unknown for all three verdicts — the single highest-value missing input; (b) **second Step-2 calibration pass** to score the now-tested Stage-3/4 signals (L16-L19); (c) run the **Depth 1 search packet** ([results/depth-1-search-packet-2026-06-20.md](results/depth-1-search-packet-2026-06-20.md)) for the clustered gated/browser pulls (Sweetwater corridor AOI, Jones parcel/NWI/FEMA/LiDAR, Fall River ranch-water screen, county posture depth); (d) widen the funnel (TX/UT/AZ) **re-weighted toward larger host counties + firm-water-at-scale**.
 
 ---
 
@@ -57,6 +57,15 @@ Run the calibrated screen across all counties in states that passed Step 0. Main
 ## Open input needed from the principal
 
 [framework/06 — Project Spec](framework/06-project-spec.md) runs on placeholder numbers. Its four open questions (build-out scale, industrial anchor type, phasing horizon, infrastructure capital ceiling) need the principal's answers before Validate-stage thresholds are real.
+
+## Principal feedback triage
+
+Principal feedback from the first reports is captured in [research/2026-06-20-principal-feedback-roadmap.md](research/2026-06-20-principal-feedback-roadmap.md). It is intentionally split into:
+
+- General method improvements: county posture depth, land-assembly search discipline, water-right acquisition pathways, flood/wetlands early screening, and report provenance.
+- Current-attempt assumptions: self-built power, acceptability of buying water rights, state-level land-use exemption as a final-site dealbreaker, and low tolerance for flood/wetlands uncertainty.
+
+Normal future reports should fold those upgrades into the main report. The already-shared first-pass findings get a one-time addendum so prior recipients can see what changed without replacing the original artifact.
 
 ## Log
 

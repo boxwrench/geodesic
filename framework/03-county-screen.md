@@ -40,6 +40,18 @@ The directly measurable proxies for "ease of rezoning and permitting" — collec
 4. **PUD procedure existence and length** — page count is a friction proxy.
 5. **Comp plan recency and growth posture** — when last updated; does it designate growth areas or defend against them?
 
+## County posture depth
+
+"Friendly county" is not a conclusion until it is grounded in observed decisions. For every county that reaches Stage 2, read posture through the bodies that can actually slow, condition, or reverse the project:
+
+- Planning commission and zoning commission membership, cadence, and recent votes.
+- County board or commission votes on large subdivisions, industrial projects, renewables, mines, prisons, landfills, or other locally salient projects.
+- Recent approvals, rejections, moratoria, zoning rewrites, litigation, and unusually burdensome conditions.
+- Staff recommendations where available: whether staff facilitated approval, narrowed it, delayed it, or gave elected officials a reason to say no.
+- Repeat public-comment participants and organized opposition groups.
+
+Separate **current willingness** from **future vulnerability**. A county can be friendly today and still become politically unsafe after project scale becomes visible.
+
 ## Vibes-to-data translation
 
 Qualitative signals are high-value but must be translated into structural facts:
@@ -62,6 +74,7 @@ What counties and landowners know but won't disclose:
 4. **Tax-base concentration**: single-industry counties see you as either salvation or existential threat. No middle ground — determine which before the first call.
 5. **Referendum/election history**: has any large project in this county ever been put to or killed by a ballot measure? Board flip frequency and margins.
 6. **Standing opposition organizations**: a slow-growth or land-trust litigant with a win record (the Greenbelt Alliance pattern) is a $0-detectable structural veto.
+7. **Large-tract blind spots**: do not infer "no sites above X acres" from casual listing searches. State the search method before making any acreage-availability claim.
 
 ## Weak signals — tiebreakers only
 

@@ -3,7 +3,7 @@
 **Goal:** completed Stage 1 + 2 [county files](../results/counties/_template.md) for Sweetwater WY, Fall River SD, Jones NC; scorecard rows filled; comparison memo on rezoning/permitting ease (the originating request).
 **Prerequisite:** Step 0 state file exists for the county's state.
 **Budget:** Stage 1 ≈ 2h/county · Stage 2 ≈ 1 day/county. **Log actual time per signal** — that's the calibration data Step 2 consumes.
-**Acceptance criteria:** every county-file cell sourced; time logged; topology classified; verdict written; memo drafted.
+**Acceptance criteria:** every county-file cell sourced; provenance block completed; water/new-vs-acquirable-rights distinction made where applicable; land-assembly search method stated; county posture depth completed from observed approvals/rejections where records exist; time logged; topology classified; verdict written; memo drafted.
 
 ## Stage 1 tasks (2h/county)
 
@@ -15,12 +15,13 @@
 
 ### 1.2 Water status — Mode A/C
 
-- WY/SD: query the state water-rights database for basin status and recent application outcomes near the county. NC: identify the applicable DEQ regime (capacity use area? withdrawal registration thresholds?).
+- WY/SD: query the state water-rights database for basin status and recent application outcomes near the county. Then separately check whether existing rights appear purchasable/transferable through the state's change-of-use/change-place process and whether large agricultural parcels commonly advertise attached rights. NC: identify the applicable DEQ regime (capacity use area? withdrawal registration thresholds?).
 - **Output:** Stage 1 water row. **Time:** 30 min
 
-### 1.3 Ownership fragmentation — Mode C
+### 1.3 Ownership fragmentation + large-tract inventory — Mode C
 
 - County GIS parcel viewer if it exists (probe `/arcgis/rest/services`); else county assessor lookup. Count owners across the candidate site areas; note any single-owner ranch/timber holdings >5,000 ac.
+- Run a large-tract search across assessor parcels where available, public ranch/farm listing sources, LandWatch/Land.com-style listing aggregators, broker pages, and local auction listings. Record the exact search method and date. Do not claim "no sites above X acres" unless the method is stated and bounded.
 - **Output:** fragmentation row. **Time:** 30 min
 
 ### 1.4 Municipal proximity / ETJ — Mode A/C
@@ -39,6 +40,11 @@
 
 - **Procedure:** run [protocol-meeting-grading.md](protocol-meeting-grading.md) (acquire transcripts via yt-dlp/Legistar/pdftotext → deterministic scoring → sampled AI pass → Development Friendliness Grade). For the pilot, the by-hand shortcut in that protocol applies — but record in the protocol's JSON schema. Also compute the [rezoning-ease metrics](../framework/03-county-screen.md#rezoning-ease-metrics-first-class-measurements) and watch one full meeting per county (honesty check).
 - **Output:** friendliness grade + components, rezoning-ease table, qualitative section. **Time:** 2–3h/county — the biggest line item, and the thing Step 3 most wants to automate.
+
+### 2.2.5 County posture depth — Mode B/C
+
+- **Procedure:** build a short, observed-decision posture record rather than relying on vibes. Review planning/zoning commission membership, meeting cadence, recent votes, staff recommendations, board/commission decisions, moratoria, zoning rewrites, litigation, unusual approval conditions, and recurring public-comment participants. Include approvals and rejections of large industrial, energy, subdivision, utility, or resource projects from at least the last 24 months where records exist.
+- **Output:** county file §"County posture depth". **Time:** 1–2h/county
 
 ### 2.3 Code + comp plan — Mode B/C
 
@@ -72,7 +78,7 @@ Run [protocol-edo-outreach.md](protocol-edo-outreach.md): contact discovery → 
 
 ### 2.7 Synthesis — Mode B
 
-- Classify topology, write the county verdict, fill the scorecard row, log total time per signal.
+- Complete the provenance block, classify topology, write the county verdict, fill the scorecard row, log total time per signal.
 - **Time:** 45 min
 
 ## Deliverable: the comparison memo

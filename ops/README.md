@@ -57,6 +57,10 @@ Time est.:   budget (actuals get logged in the county/state file)
 
 Supporting registry: [data-sources.md](data-sources.md) — every API and government source we rely on, with access method and reliability notes.
 
+## Method validation
+
+Run `bash scripts/validate-geodesic.sh` from the repo root after changing framework, ops, or result templates. The check is intentionally small: it verifies that the principal-feedback upgrades remain wired into the roadmap, project assumptions, state/county templates, and operating procedures.
+
 ## Standing protocols
 
 Reusable instruments invoked by the game plans:

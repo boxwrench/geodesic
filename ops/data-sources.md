@@ -19,6 +19,7 @@ URLs and coverage rot; when a source is used, confirm it and update this table. 
 | USFWS IPaC | Listed species + critical habitat report per AOI (federal-layer screen) | Web tool + API (`ipac.ecosphere.fws.gov`) | A | ✅ |
 | County GIS servers | Parcels, zoning layers | ArcGIS REST where published (`/arcgis/rest/services` probe) | A | ⚠️ rural counties often lack one — absence is itself a capacity signal |
 | Regrid | Nationwide normalized parcels + ownership | Paid API | A | ⚠️ cost; use county GIS first |
+| Ranch/farm listing aggregators and broker pages | Large-tract sale inventory, advertised water rights, ownership hints | Web search/manual review | C | ⚠️ marketing data; useful for disproving "no large sites" claims, verify with assessor/title |
 
 ## Water (state-specific)
 
@@ -47,6 +48,8 @@ URLs and coverage rot; when a source is used, confirm it and update this table. 
 | Granicus / Legistar | Agendas, minutes, video for subscribed counties | Legistar has REST API (🔍 per-county) | A/B | ⚠️ rural counties often not subscribed |
 | County YouTube channels | Meeting recordings + auto-transcripts | YouTube Data API, `yt-dlp` | A/B | ⚠️ varies by county |
 | County clerk sites / records requests | Minutes PDFs where nothing else exists | Manual, FOIA/public-records | C | ✅ slow |
+| Planning/zoning commission pages | Membership, meeting cadence, agendas, minutes, vote records, staff reports | Web/manual review | B/C | ✅ when published; absence is a capacity/transparency signal |
+| County board/commission minutes | Approvals, rejections, moratoria, zoning rewrites, unusual conditions | Web/manual review | B/C | ✅ primary county record |
 | Local newspapers / news archives | Development fights, opposition orgs | Web search | B | ⚠️ |
 
 ## Human sources (Mode D)
