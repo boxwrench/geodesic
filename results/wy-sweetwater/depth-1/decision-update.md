@@ -17,6 +17,8 @@ The best current thesis:
 |---|---|---|
 | Landholder | URC / Sweetwater transaction confirms major fee-surface landholder and optionality thesis; county shapefile confirms Sweetwater Surface LLC, Aggie Grazing LLC, Anadarko Land Corp, Wildcat Coal LLC, and Uinta Dev as large parcel owners | Seller-first strategy remains correct, but owner-entity relationship needs confirmation |
 | Parcel candidates | County shapefile identifies above-threshold candidate blocks near Green River, Rock Springs, and Point of Rocks | Move from "find parcels" to overlay-clipping ranked candidate blocks |
+| FEMA flood | NFHL Flood Hazard Zones REST query returned zero features for all four candidate envelopes | No immediate FEMA red flag; still verify local drainage/NWI on exact polygons |
+| BLM surface | BLM Surface Management Agency REST query shows all four envelopes intersect BLM surface | Federal-surface interaction is real; exact private/buildable acreage must be clipped before landholder outreach |
 | Water | Corridor water path still looks real; firmness is the problem | Green River corridor remains preferred |
 | Power | Official RMP thresholds keep 25 MW and >200 MW as key cliffs | Entry should be kept below 25 MW if possible |
 | Federal overlays | RMP/sage-grouse remain layout constraints; no AOI clip yet | Need map before any LOI |
@@ -25,11 +27,12 @@ The best current thesis:
 ## What Is Still Missing
 
 1. Current owner/surface estate relationship among Sweetwater Surface, Aggie Grazing, Anadarko, Wildcat, Uinta Dev, and New URC.
-2. BLM surface / RMP / sage-grouse clip for the ranked blocks.
-3. FEMA/NWI/water-conveyance clip for the ranked blocks.
-4. SEO e-Permit pull for nearby senior rights and Dry Creek precedent details.
-5. Fontenelle M&I storage availability and pricing.
-6. PacifiCorp study scoping for entry load and build-out options.
+2. Exact parcel-polygon clip for BLM surface acreage, not just envelope-level intersection.
+3. Rock Springs RMP / sage-grouse clip for the ranked blocks.
+4. NWI/water-conveyance/transmission clip for the ranked blocks.
+5. SEO e-Permit pull for nearby senior rights and Dry Creek precedent details.
+6. Fontenelle M&I storage availability and pricing.
+7. PacifiCorp study scoping for entry load and build-out options.
 
 ## Go / No-Go Read
 
@@ -46,7 +49,7 @@ The best current thesis:
 Build the corridor AOI overlay map/table:
 
 ```text
-GR-1 / GR-2 / RS-1 / POR-1 -> ownership -> BLM/RMP/sage-grouse -> Green River/JPWB distance -> FEMA/NWI -> transmission distance -> exclusion notes
+GR-2 / GR-1 first -> exact parcel polygon -> BLM acreage -> RMP/sage-grouse -> Green River/JPWB distance -> NWI/local drainage -> transmission distance -> exclusion notes
 ```
 
 That map is the prerequisite for a serious landholder conversation.

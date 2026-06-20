@@ -26,7 +26,7 @@ Unknown until a polygon exists. General Sweetwater exposure is clear enough to p
 | Rock Springs RMP ACEC / ROW exclusions | May cap utilities, roads, pipelines, or layout | source path confirmed; clip open | Candidate AOI clipped to RMP constraints |
 | Sage-grouse core / leks | Layout, disturbance caps, timing limits | open | Candidate AOI clipped to core area / lek buffers |
 | FEMA NFHL | Corridor flood risk and Green River adjacency | open | Flood hazard map for AOI |
-| NWI wetlands / waters | Low countywide but important near Green River and playas | open | NWI map for AOI |
+| NWI wetlands / waters | Low countywide but important near Green River and playas | source path confirmed; clip open | NWI map for AOI |
 | HIFLD transmission | Proximity is known; exact tie point unknown | probable | Distance to HV lines/substations |
 | Roads / rail | I-80 corridor is a major advantage | probable | Distance to I-80 / rail / local roads |
 | Geotech / subsidence | Avoid mined panels and worst trona subsidence west of Green River | probable | Exclusion note for known high-risk zones |
@@ -68,5 +68,6 @@ I-80 / rail
 | County parcels | Solved: official TerraGIS `ownership.zip` downloaded and inspected | Ranked candidates identified |
 | BLM Rock Springs RMP | Official BLM release found; ePlanning register points to project docs but shell not fetchable here | Manual/browser or alternate BLM GIS data pull needed |
 | Sage-grouse core areas | WGFD source path known from cache; web fetch blocked/unstable | Manual/browser GIS pull needed |
-| FEMA/NWI | Stable national sources | Can run after AOI geometry is exported |
+| FEMA | Solved at envelope level through NFHL REST layer 28 | Zero flood-hazard features returned for all four candidate envelopes |
+| NWI | Wyoming geodatabase source exists but is 1.12 GB and needs GIS tooling | Manual/GIS workstation pull needed |
 | HIFLD transmission | Stable national source; local transmission cache already identifies corridor | Clip after AOI geometry is exported |

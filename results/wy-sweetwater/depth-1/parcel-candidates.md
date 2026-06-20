@@ -58,6 +58,17 @@ section/township/range | owner | surface estate | mineral notes | BLM adjacency 
 | RS-1 | AGGIE GRAZING LLC | R0111031 | 1805-01-1-00-010-00 | 9,145.35 | Strong Rock Springs-side block near services/labor/power. |
 | POR-1 | AGGIE GRAZING LLC | R0124294 | 2001-01-1-00-011-00 | 6,165.70 | Point of Rocks / transmission-corridor fallback; water path needs checking. |
 
+## Overlay Precheck Update
+
+See `overlay-precheck-2026-06-20.md`.
+
+Preliminary ranking after envelope-level FEMA and BLM SMA checks:
+
+1. **GR-2** — direct Sweetwater Surface owner, above 5,000 acres, Green River-side thesis, simpler BLM/private envelope than GR-1.
+2. **GR-1** — larger Green River-side block, still attractive, but more mixed envelope and likely more river-adjacent screening.
+3. **RS-1** — strong services/power/labor candidate; water conveyance is the key check.
+4. **POR-1** — transmission-corridor fallback; lower priority until water path is shown.
+
 ## Current Blocker
 
 Parcel ownership is no longer blocked. The new blocker is GIS overlay clipping:

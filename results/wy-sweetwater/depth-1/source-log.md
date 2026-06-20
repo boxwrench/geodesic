@@ -20,6 +20,9 @@ Status: initial source bundle; parcel geometry not yet pulled
 | Official parcel ownership data is available through the county MapServer shapefile download. | Sweetwater County official site -> TerraGIS MapServer -> `https://maps.terragis.net/sweetwater/download/ownership.zip` | 2026-06-20 | County parcel ownership shapefile | confirmed | County removes or materially changes the download; title/deed search contradicts parcel owner names. |
 | Multiple above-threshold Sweetwater-related blocks exist in the Green River / Rock Springs / Point of Rocks corridor search extents. | Derived from `ownership.zip` DBF/SHP; see `aoi-candidates-2026-06-20.md` | 2026-06-20 | County parcel shapefile analysis | probable | Geometry clip or title review shows blocks are not contiguous/buildable or not controlled by the expected entity. |
 | BLM's approved Rock Springs RMP is the correct federal overlay source path for the candidate blocks. | https://www.blm.gov/press-release/blm-updates-management-plan-rock-springs-field-office | 2026-06-20 | BLM official release | confirmed as source path; overlay clip open | ePlanning/GIS layer pull shows candidate blocks are outside the most relevant RMP constraints. |
+| FEMA NFHL Flood Hazard Zones returned zero intersecting features for all four candidate parcel envelopes. | https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query | 2026-06-20 | FEMA REST envelope query | probable | Exact polygon query or local drainage data shows mapped or unmapped flood hazard inside buildable areas. |
+| BLM Surface Management Agency returned BLM/private and other surface categories inside all four candidate envelopes. | https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_without_PriUnk/MapServer/1/query | 2026-06-20 | BLM REST envelope query | probable | Exact polygon clip shows buildable parcel portions avoid BLM surface and federal ROW entirely. |
+| Wyoming NWI state geodatabase download exists but is too large/unusable in this shell without GIS tooling. | https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/WY_geodatabase_wetlands.zip | 2026-06-20 | USFWS download source path | confirmed as source path; overlay open | GIS workstation clips NWI to candidate polygons. |
 | Exact candidate AOI map is still missing. | Current repo state after parcel-source pull | 2026-06-20 | Gap finding | open | BLM/RMP/sage-grouse/FEMA/NWI/transmission overlays are clipped against the ranked parcel blocks. |
 
 ## Stable Source Paths
@@ -34,6 +37,9 @@ Status: initial source bundle; parcel geometry not yet pulled
 - Sweetwater County parcel ownership shapefile: https://maps.terragis.net/sweetwater/download/ownership.zip
 - BLM Rock Springs RMP release: https://www.blm.gov/press-release/blm-updates-management-plan-rock-springs-field-office
 - BLM Rock Springs ePlanning project path from cache: https://eplanning.blm.gov/eplanning-ui/project/13853/510
+- FEMA NFHL Flood Hazard Zones REST layer: https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28
+- BLM Surface Management Agency REST layer: https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_without_PriUnk/MapServer/1
+- USFWS Wyoming NWI geodatabase download: https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/WY_geodatabase_wetlands.zip
 - Local federal cache: `research/raw/sweetwater/2026-06-13-federal-layer-pull.md`
 - Local water cache: `research/raw/sweetwater/2026-06-13-stage3-water-economics.md`
 - Local transmission cache: `research/raw/sweetwater/2026-06-13-stage3-transmission.md`
