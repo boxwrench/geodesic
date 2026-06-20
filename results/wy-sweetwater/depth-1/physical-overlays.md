@@ -66,8 +66,11 @@ I-80 / rail
 | Overlay | Source status | Current result |
 |---|---|---|
 | County parcels | Solved: official TerraGIS `ownership.zip` downloaded and inspected | Ranked candidates identified |
+| GR-2 / GR-1 exact parcel-part precheck | Solved for geometry stats, FEMA exact-part query, BLM SMA intersecting-category query, BLM-only acreage, national ACEC, and public WGFD sage-grouse polygons | New table: `corridor-aoi-overlay-table-2026-06-20.md`; GR-2 is owner-cleaner, GR-1 is physically stronger after sage-core clipping, and generic BLM acreage is minor |
 | BLM Rock Springs RMP | Official BLM release found; ePlanning register points to project docs but shell not fetchable here | Manual/browser or alternate BLM GIS data pull needed |
-| Sage-grouse core areas | WGFD source path known from cache; web fetch blocked/unstable | Manual/browser GIS pull needed |
+| Sage-grouse core areas | Solved for official WGFD Core Areas v4 shapefile | GR-2 ~52.8% Blacks Fork Core; GR-1 ~17.2%; RS-1/POR-1 0% |
+| Other public WGFD sage-grouse layers | Solved for general habitat, connectivity, winter concentration, and transmission-corridor-through-core shapefiles | All four candidates 100% general habitat and 0% for the other three layers |
+| Sage-grouse leks / buffers | Source still open; core-area clip does not include lek locations/buffers | Manual/browser GIS pull needed |
 | FEMA | Solved at envelope level through NFHL REST layer 28 | Zero flood-hazard features returned for all four candidate envelopes |
 | NWI | Wyoming geodatabase source exists but is 1.12 GB and needs GIS tooling | Manual/GIS workstation pull needed |
 | HIFLD transmission | Stable national source; local transmission cache already identifies corridor | Clip after AOI geometry is exported |

@@ -7,7 +7,7 @@
 [![Status](https://img.shields.io/badge/status-pre--pilot-2f6fed)](./ROADMAP.md)
 [![Focus](https://img.shields.io/badge/focus-entitlement%20durability-111111)](./framework/00-the-question.md)
 [![Mode](https://img.shields.io/badge/mode-manual%20before%20automation-5b8c5a)](./ROADMAP.md)
-[![Framework](https://img.shields.io/badge/framework-v1.1%20calibrated-8a63d2)](./framework/04-signal-inventory.md)
+[![Framework](https://img.shields.io/badge/framework-v1.2%20calibrated-8a63d2)](./framework/04-signal-inventory.md)
 [![Pilot](https://img.shields.io/badge/pilot-WY%20·%20SD%20·%20NC-d97706)](./results/scorecard.md)
 
 </div>
@@ -90,12 +90,12 @@ The repo is organized to match that sequence:
 
 | Category | Current state |
 | --- | --- |
-| Framework | **v1.1 — signal inventory ([04](framework/04-signal-inventory.md)) calibrated against the 3-county pilot**; docs 00–03, 05–07 stable. Scale-threshold promoted, transmission demoted, friendliness-grade topology-gated |
-| Stage | Pre-pilot |
+| Framework | **v1.2 — signal inventory ([04](framework/04-signal-inventory.md)) calibrated through Validate/Commit**; Stage-3 firm-water, absorption, legal date-check, meeting-record infrastructure, and `Scale` scorecard column added |
+| Stage | Pilot complete through Stage 4 synthesis; Depth 1 underway for Sweetwater |
 | Pilot states | Wyoming, South Dakota, North Carolina |
 | Pilot counties | Sweetwater County WY, Fall River County SD, Jones County NC |
-| Next move | Run the state screen first, then validate the county shortlist |
-| Automation | Intentionally deferred until the manual pilot proves signal value |
+| Next move | Principal scale/phasing input, Sweetwater Depth 1 AOI overlay packet, then widen the funnel |
+| Automation | Deferred except for proven Tier-A/overlay helpers; build order lives in [ops/step-3](ops/step-3-automation.md) |
 
 See the active plan in [ROADMAP.md](ROADMAP.md).
 

@@ -76,6 +76,20 @@ What counties and landowners know but won't disclose:
 6. **Standing opposition organizations**: a slow-growth or land-trust litigant with a win record (the Greenbelt Alliance pattern) is a $0-detectable structural veto.
 7. **Large-tract blind spots**: do not infer "no sites above X acres" from casual listing searches. State the search method before making any acreage-availability claim.
 
+## Validate discipline — do not let Stage-1 fear set the Stage-3 work order
+
+Stage 1 exists to find cheap kills. It does **not** reliably predict the axis that ultimately binds. In the pilot, Fall River's early assembly/transmission worries became least binding at Validate, while water killed it; Sweetwater's early water/assembly worries softened, while labor/housing and a 200 MW power cliff emerged.
+
+So every county that reaches Stage 3 gets the same parallel Validate packet, regardless of which Stage-1 signal looked scariest:
+
+1. **Firm-water-at-build-out trichotomy:** source exists and durability is the work; source exists at major capital cost; or no firm source exists at scale. The third case is a hard kill.
+2. **Absorption capacity:** construction labor, housing, and service capacity within the realistic commute shed; not just local political willingness.
+3. **Power-at-scale threshold/headroom:** not just distance to a line, but utility process cliffs, study requirements, self-build constraints, and state-commission triggers at entry and build-out load.
+4. **Buildable-acreage after constraints:** floodplain, wetlands, hydric soils, drainage, federal surface, protected lands, and local physical exclusions clipped against candidate parcels.
+5. **Current-jurisdiction date-check:** for legal/federal kill layers, especially §404/WOTUS and state backfill regimes, confirm the law as of the report date before treating a framework prior as a final kill.
+
+Validate verdicts are **spec-conditional**. Record where the answer flips for entry phase, intermediate phase, and full build-out; if the principal's real scale/phasing is unknown, say that directly rather than converting a placeholder threshold into a final conclusion.
+
 ## Weak signals — tiebreakers only
 
 Meeting frequency, EDO staffing level, and general "friendliness" are noisy. They break ties between counties that already passed structural screens; they never gate.

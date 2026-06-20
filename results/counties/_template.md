@@ -21,6 +21,7 @@
 
 | Signal | Finding | Source | Time | Kill? |
 |---|---|---|---|---|
+| Scale-threshold ratio (entry and full build-out ÷ county pop) | | | | |
 | Water basin status and new-vs-acquirable rights path (West) / wetlands+floodplain proxy (Southeast) | | | | |
 | Tribal/military/protected overlays | | | | |
 | Landownership fragmentation at candidate sites | | | | |
@@ -68,10 +69,15 @@
 
 ## Stage 3 — Validate (1wk budget) — *only if Stage 2 passed*
 
-- Water source / pipeline economics:
+- Firm-water-at-build-out trichotomy: source exists / source exists at major cost / no firm source at scale:
+- New rights vs. acquirable/transferrable rights path:
+- Power-at-scale threshold/headroom: entry load, build-out load, utility process cliffs, self-build constraints:
+- Buildable acreage after floodplain, wetlands, hydric soils, federal surface, protected land, and drainage exclusions:
 - Transmission tie-in path:
 - Geological constraints:
-- Labor pool within 60 min:
+- Absorption capacity: construction labor, housing, and service capacity within realistic commute shed:
+- Current-jurisdiction date-check for legal/federal kill layers (especially §404/WOTUS and state backfill):
+- Entry/intermediate/build-out flip points:
 
 ## Stage 4 — Commit (1mo budget) — *only if Stage 3 passed*
 
