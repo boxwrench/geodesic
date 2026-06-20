@@ -23,6 +23,9 @@ Status: initial source bundle; parcel geometry not yet pulled
 | FEMA NFHL Flood Hazard Zones returned zero intersecting features for all four candidate parcel envelopes. | https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query | 2026-06-20 | FEMA REST envelope query | probable | Exact polygon query or local drainage data shows mapped or unmapped flood hazard inside buildable areas. |
 | BLM Surface Management Agency returned BLM/private and other surface categories inside all four candidate envelopes. | https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_without_PriUnk/MapServer/1/query | 2026-06-20 | BLM REST envelope query | probable | Exact polygon clip shows buildable parcel portions avoid BLM surface and federal ROW entirely. |
 | Wyoming NWI state geodatabase download exists but is too large/unusable in this shell without GIS tooling. | https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/WY_geodatabase_wetlands.zip | 2026-06-20 | USFWS download source path | confirmed as source path; overlay open | GIS workstation clips NWI to candidate polygons. |
+| `AGGIE GRAZING LLC`, `SWEETWATER SURFACE LLC`, and most `UINTA DEV` parcel records share Sweetwater Royalties' Lakewood office address. | Sweetwater County parcel shapefile + Sweetwater Royalties website contact address | 2026-06-20 | Parcel-file address match + company site | probable | SOS/deed records show entities are not controlled by Sweetwater or have changed beneficial owner. |
+| Sweetwater's public "Surface & Mineral Ownership by Sweetwater Entity" map uses Aggie Grazing, Sweetwater Surface, and UDC as surface-owner categories. | Sweetwater Royalties website image | 2026-06-20 | Company-published map image | probable | Full source GIS or company contact shows map is outdated or UDC is not `UINTA DEV`. |
+| Colorado SOS exact search confirms `Aggie Grazing LLC` as a foreign LLC in good standing, ID 20201876838, authorized 2020-10-09. | Colorado SOS business search | 2026-06-20 | State business-search result row | confirmed for search-result row | Detail page or later SOS update changes status or shows unrelated principal. |
 | Exact candidate AOI map is still missing. | Current repo state after parcel-source pull | 2026-06-20 | Gap finding | open | BLM/RMP/sage-grouse/FEMA/NWI/transmission overlays are clipped against the ranked parcel blocks. |
 
 ## Stable Source Paths
@@ -40,6 +43,9 @@ Status: initial source bundle; parcel geometry not yet pulled
 - FEMA NFHL Flood Hazard Zones REST layer: https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28
 - BLM Surface Management Agency REST layer: https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_without_PriUnk/MapServer/1
 - USFWS Wyoming NWI geodatabase download: https://documentst.ecosphere.fws.gov/wetlands/data/State-Downloads/WY_geodatabase_wetlands.zip
+- Sweetwater Royalties website: https://www.sweetwaterroyalties.com/
+- Sweetwater public entity map image: https://images.squarespace-cdn.com/content/v1/5fc7f32bf7c2650191d28afb/e2ba8179-32e3-46b0-a24d-fb1f2fab6dc9/Sweetwater+Royalties+LLC_Map2.png
+- Colorado SOS business search: https://www.coloradosos.gov/biz/BusinessEntityCriteriaExt.do
 - Local federal cache: `research/raw/sweetwater/2026-06-13-federal-layer-pull.md`
 - Local water cache: `research/raw/sweetwater/2026-06-13-stage3-water-economics.md`
 - Local transmission cache: `research/raw/sweetwater/2026-06-13-stage3-transmission.md`

@@ -69,6 +69,17 @@ Preliminary ranking after envelope-level FEMA and BLM SMA checks:
 3. **RS-1** — strong services/power/labor candidate; water conveyance is the key check.
 4. **POR-1** — transmission-corridor fallback; lower priority until water path is shown.
 
+## Entity Confirmation Update
+
+See `entity-confirmation-2026-06-20.md`.
+
+Entity pass strengthens the parcel ranking:
+
+- `SWEETWATER SURFACE LLC` is the cleanest direct owner name for a Sweetwater-platform surface ask.
+- `AGGIE GRAZING LLC` is address-matched to Sweetwater's Lakewood office and appears in Sweetwater's own surface-owner map legend.
+- `UINTA DEV` shares the same Lakewood office address on most records and likely corresponds to `UDC` on Sweetwater's entity map, but spelling/identity still needs confirmation.
+- `ANADARKO LAND CORP` and `WILDCAT COAL LLC` should not be grouped into Sweetwater/New URC for outreach unless deed/SOS work confirms it.
+
 ## Current Blocker
 
 Parcel ownership is no longer blocked. The new blocker is GIS overlay clipping:
