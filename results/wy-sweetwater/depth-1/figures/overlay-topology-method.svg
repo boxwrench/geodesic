@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="430" viewBox="0 0 1050 430" role="img" aria-label="Reusable overlay topology method">
+<rect width="100%" height="100%" fill="#fbfbf7"/>
+<text x="42" y="42" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1f2933">Reusable method: subtract constraints, then test topology</text>
+<rect x="42" y="110" width="145" height="92" rx="6" fill="#ffffff" stroke="#dad7ca"/>
+<text x="54" y="138" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2933">1. Candidate geometry</text>
+<text x="54" y="162" font-family="Arial, sans-serif" font-size="12" fill="#68717d">Parcel or assembled</text>
+<text x="54" y="179" font-family="Arial, sans-serif" font-size="12" fill="#68717d">tract boundary</text>
+<line x1="191" y1="156.0" x2="207" y2="156.0" stroke="#68717d" stroke-width="1.5"/>
+<path d="M 207 156.0 l -6 -4 v 8 z" fill="#68717d"/>
+<rect x="211" y="110" width="145" height="92" rx="6" fill="#ffffff" stroke="#dad7ca"/>
+<text x="223" y="138" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2933">2. Constraint overlay</text>
+<text x="223" y="162" font-family="Arial, sans-serif" font-size="12" fill="#68717d">Core area, floodplain,</text>
+<text x="223" y="179" font-family="Arial, sans-serif" font-size="12" fill="#68717d">wetlands, ROW</text>
+<text x="223" y="196" font-family="Arial, sans-serif" font-size="12" fill="#68717d">exclusion</text>
+<line x1="360" y1="156.0" x2="376" y2="156.0" stroke="#68717d" stroke-width="1.5"/>
+<path d="M 376 156.0 l -6 -4 v 8 z" fill="#68717d"/>
+<rect x="380" y="110" width="145" height="92" rx="6" fill="#ffffff" stroke="#dad7ca"/>
+<text x="392" y="138" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2933">3. Difference operation</text>
+<text x="392" y="162" font-family="Arial, sans-serif" font-size="12" fill="#68717d">Candidate minus</text>
+<text x="392" y="179" font-family="Arial, sans-serif" font-size="12" fill="#68717d">constraint polygons</text>
+<line x1="529" y1="156.0" x2="545" y2="156.0" stroke="#68717d" stroke-width="1.5"/>
+<path d="M 545 156.0 l -6 -4 v 8 z" fill="#68717d"/>
+<rect x="549" y="110" width="145" height="92" rx="6" fill="#ffffff" stroke="#dad7ca"/>
+<text x="561" y="138" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2933">4. Component test</text>
+<text x="561" y="162" font-family="Arial, sans-serif" font-size="12" fill="#68717d">Measure each</text>
+<text x="561" y="179" font-family="Arial, sans-serif" font-size="12" fill="#68717d">contiguous remainder</text>
+<line x1="698" y1="156.0" x2="714" y2="156.0" stroke="#68717d" stroke-width="1.5"/>
+<path d="M 714 156.0 l -6 -4 v 8 z" fill="#68717d"/>
+<rect x="718" y="110" width="145" height="92" rx="6" fill="#ffffff" stroke="#dad7ca"/>
+<text x="730" y="138" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2933">5. Sensitivity buffers</text>
+<text x="730" y="162" font-family="Arial, sans-serif" font-size="12" fill="#68717d">Drainage, access,</text>
+<text x="730" y="179" font-family="Arial, sans-serif" font-size="12" fill="#68717d">easements, setbacks</text>
+<line x1="867" y1="156.0" x2="883" y2="156.0" stroke="#68717d" stroke-width="1.5"/>
+<path d="M 883 156.0 l -6 -4 v 8 z" fill="#68717d"/>
+<rect x="887" y="110" width="145" height="92" rx="6" fill="#ffffff" stroke="#dad7ca"/>
+<text x="899" y="138" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2933">6. Decision language</text>
+<text x="899" y="162" font-family="Arial, sans-serif" font-size="12" fill="#68717d">Aggregate package vs</text>
+<text x="899" y="179" font-family="Arial, sans-serif" font-size="12" fill="#68717d">contiguous block</text>
+<rect x="42" y="260" width="966" height="104" rx="8" fill="#ffffff" stroke="#dad7ca"/>
+<text x="62" y="294" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Transferable insight</text>
+<text x="62" y="322" font-family="Arial, sans-serif" font-size="14" fill="#1f2933">A parcel can pass on total acreage and still fail as a site. The decisive test is not only how many acres survive a constraint overlay, but how those acres are connected.</text>
+<text x="62" y="348" font-family="Arial, sans-serif" font-size="14" fill="#1f2933">This pattern applies to wetlands, floodplains, conservation easements, mineral exclusions, transmission corridors, wildfire buffers, and urban infill assemblages.</text>
+</svg>

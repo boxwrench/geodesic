@@ -3,6 +3,8 @@
 Date: 2026-06-21  
 Status: first-pass geometry gate; not a rendered site plan
 
+Companion methods report with visuals: `gr-1-layout-method-report-2026-06-21.md`.
+
 ## Decision Question
 
 Can GR-1 hold a plausible 5,000-acre non-core entry block, or did the prior "7,611 non-core acres" finding overstate practical layout quality?
@@ -75,4 +77,3 @@ Can Sweetwater / New URC assemble, sell, or option a non-core Green River corrid
 2. Identify which intervening sections or easements are required to turn the non-core pieces into a functional entry package.
 3. Pull RMP ROW-exclusion / ROW-avoidance and lek-buffer checks before any parcel-specific LOI.
 4. Run NWI from the official Wyoming state download or GIS workstation before final parcel recommendation.
-

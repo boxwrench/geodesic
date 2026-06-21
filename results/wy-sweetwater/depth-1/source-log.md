@@ -40,6 +40,7 @@ Status: initial source bundle; parcel geometry not yet pulled
 | Colorado SOS exact search confirms `Aggie Grazing LLC` as a foreign LLC in good standing, ID 20201876838, authorized 2020-10-09. | Colorado SOS business search | 2026-06-20 | State business-search result row | confirmed for search-result row | Detail page or later SOS update changes status or shows unrelated principal. |
 | Exact GR-1/GR-2 overlay table is complete through BLM-only acreage, ACEC, NFHL, public WGFD sage-grouse polygon clips, HIFLD transmission distance, I-80/rail distance, Green River distance, and NHD drainage proxy. A rendered AOI map/layout is still missing. | `corridor-aoi-overlay-table-2026-06-20.md` | 2026-06-20 | Table artifact + public GIS clips | probable | RMP ROW, lek buffers, NWI, and an actual 5,000-acre layout sketch are completed against the ranked parcel blocks. |
 | GR-1 has enough non-core acreage in aggregate (~7,610 ac), but its largest non-core geometry component is only ~640 ac; it supports a controlled-section package thesis rather than a single fee-contiguous 5,000-acre block. | `gr-1-layout-gate-2026-06-21.md`, using county parcel geometry, WGFD Core Areas v4, and USGS NHD flowlines | 2026-06-21 | Local Shapely/PyProj geometry test + public GIS layers | probable | A section-level exhibit, title work, or acquisition/easement package proves intervening sections can be controlled enough to function as one entry site. |
+| The GR-1 layout gate is also documented as a reusable method for other spatial screens: subtract constraints, measure aggregate remainder, split contiguous components, stress with buffers, then translate the decision language. | `gr-1-layout-method-report-2026-06-21.md` and generated SVG figures in `figures/` | 2026-06-21 | Methods report derived from the same geometry test | probable | Applying the method to another site reveals missing steps, better thresholds, or a clearer way to represent component topology. |
 
 ## Stable Source Paths
 
@@ -75,6 +76,7 @@ Status: initial source bundle; parcel geometry not yet pulled
 - Local transmission cache: `research/raw/sweetwater/2026-06-13-stage3-transmission.md`
 - Local land/labor cache: `research/raw/sweetwater/2026-06-13-stage3-land-labor.md`
 - GR-1 layout gate: `results/wy-sweetwater/depth-1/gr-1-layout-gate-2026-06-21.md`
+- GR-1 layout methods report: `results/wy-sweetwater/depth-1/gr-1-layout-method-report-2026-06-21.md`
 
 ## Blocked / Manual Source Paths
 
