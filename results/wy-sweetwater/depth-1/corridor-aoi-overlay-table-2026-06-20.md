@@ -171,6 +171,8 @@ Interpretation: GR-1's size is valuable, actual BLM acreage is minor, Core Area 
 
 **Proceed with GR-1 as the physical lead and GR-2 as the owner/infrastructure lead.** The generic BLM-surface question is materially reduced, the corridor-distance screen passes for both, and the core-area clip makes GR-1 the better physical-layout candidate. GR-2 is still too useful to drop because it is the cleanest named Sweetwater Surface parcel and has direct I-80/UP/near-230 kV adjacency.
 
+Update: the follow-on layout gate (`gr-1-layout-gate-2026-06-21.md`) narrows the GR-1 claim. GR-1 has enough non-core acreage in aggregate, but the largest non-core geometry component is only about 640 acres. So GR-1 supports a controlled-section package thesis, not yet a fee-contiguous 5,000-acre block.
+
 The remaining pre-LOI artifact should be narrower than before:
 
 ```text
@@ -178,7 +180,7 @@ GR-1 and GR-2 exact parcel polygons
 -> Rock Springs RMP ROW exclusion / ROW avoidance map package
 -> WGFD or consultant lek-buffer check
 -> NWI/local drainage clip from official state download or GIS workstation
--> layout sketch: 5,000-ac non-core entry block on GR-1 vs. core-disturbance-constrained entry on GR-2
+-> section-level exhibit: can GR-1's non-core pieces function as a 5,000-ac controlled-section package?
 ```
 
 **Do not spend on a land option yet.** Soft landholder appetite testing can begin only if framed generally through counsel: "Would Sweetwater/New URC consider non-core surface dispositions in the Green River / I-80 corridor?" A parcel-specific ask should wait until RMP/ROW and lek-buffer constraints are known.

@@ -76,3 +76,4 @@ I-80 / rail
 | HIFLD transmission | Stable national source queried for GR-1/GR-2 | GR-2 ~0.70 mi to mapped 230 kV PacifiCorp line; GR-1 ~1.90 mi |
 | I-80 / UP rail | Public freeway and railroad FeatureServers queried for GR-1/GR-2 | GR-2 intersects/touches I-80 and UP rail; GR-1 ~2.40 mi to I-80 and ~1.98 mi to UP rail |
 | Green River / NHD drainage | USGS NHD queried for GR-1/GR-2 | GR-1 intersects/touches Green River linework; GR-2 ~0.88 mi away; both have mapped NHD flowlines requiring layout review |
+| GR-1 layout gate | Exact geometry plus WGFD Core Area and NHD flowline buffers | GR-1 has enough aggregate non-core acreage but no single 5,000-acre fee-contiguous non-core component |

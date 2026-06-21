@@ -39,6 +39,7 @@ Status: initial source bundle; parcel geometry not yet pulled
 | Sweetwater's public "Surface & Mineral Ownership by Sweetwater Entity" map uses Aggie Grazing, Sweetwater Surface, and UDC as surface-owner categories. | Sweetwater Royalties website image | 2026-06-20 | Company-published map image | probable | Full source GIS or company contact shows map is outdated or UDC is not `UINTA DEV`. |
 | Colorado SOS exact search confirms `Aggie Grazing LLC` as a foreign LLC in good standing, ID 20201876838, authorized 2020-10-09. | Colorado SOS business search | 2026-06-20 | State business-search result row | confirmed for search-result row | Detail page or later SOS update changes status or shows unrelated principal. |
 | Exact GR-1/GR-2 overlay table is complete through BLM-only acreage, ACEC, NFHL, public WGFD sage-grouse polygon clips, HIFLD transmission distance, I-80/rail distance, Green River distance, and NHD drainage proxy. A rendered AOI map/layout is still missing. | `corridor-aoi-overlay-table-2026-06-20.md` | 2026-06-20 | Table artifact + public GIS clips | probable | RMP ROW, lek buffers, NWI, and an actual 5,000-acre layout sketch are completed against the ranked parcel blocks. |
+| GR-1 has enough non-core acreage in aggregate (~7,610 ac), but its largest non-core geometry component is only ~640 ac; it supports a controlled-section package thesis rather than a single fee-contiguous 5,000-acre block. | `gr-1-layout-gate-2026-06-21.md`, using county parcel geometry, WGFD Core Areas v4, and USGS NHD flowlines | 2026-06-21 | Local Shapely/PyProj geometry test + public GIS layers | probable | A section-level exhibit, title work, or acquisition/easement package proves intervening sections can be controlled enough to function as one entry site. |
 
 ## Stable Source Paths
 
@@ -73,6 +74,7 @@ Status: initial source bundle; parcel geometry not yet pulled
 - Local water cache: `research/raw/sweetwater/2026-06-13-stage3-water-economics.md`
 - Local transmission cache: `research/raw/sweetwater/2026-06-13-stage3-transmission.md`
 - Local land/labor cache: `research/raw/sweetwater/2026-06-13-stage3-land-labor.md`
+- GR-1 layout gate: `results/wy-sweetwater/depth-1/gr-1-layout-gate-2026-06-21.md`
 
 ## Blocked / Manual Source Paths
 

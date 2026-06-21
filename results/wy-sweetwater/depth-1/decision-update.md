@@ -29,16 +29,18 @@ The best current thesis:
 | Other public WGFD sage-grouse layers | All four candidates are 100% general sage-grouse habitat and 0% connectivity / winter concentration / transmission-corridor-through-core | These layers do not discriminate; Core Area and lek buffers remain the useful sage-grouse screens |
 | Corridor distances | GR-2 intersects/touches I-80 and UP rail and is ~0.70 mi from a mapped 230 kV PacifiCorp line; GR-1 is ~2.40 mi from I-80, ~1.98 mi from UP rail, and ~1.90 mi from a mapped 230 kV PacifiCorp line | Both pass the corridor-access and transmission-proximity screen; GR-2 is infrastructure-stronger |
 | Green River / local drainage | GR-1 intersects/touches Green River NHD linework; GR-2 is ~0.88 mi from Green River NHD linework; NHD maps flowlines inside both parcels | Both pass the water-conveyance distance screen; GR-1 is closest to water but needs tighter drainage/riparian layout diligence |
+| GR-1 layout gate | GR-1 has ~7,610 non-core acres in aggregate, but the largest non-core geometry component is only ~640 acres; after crude 300 ft NHD-flowline buffering, aggregate non-core acreage remains ~5,851 acres but no single large component emerges | GR-1 supports a controlled-section package thesis, not yet a fee-contiguous 5,000-acre block |
 | County posture | Favorable, but not binding | DA path should wait for real site package |
 
 ## What Is Still Missing
 
 1. RMP ROW-exclusion / ROW-avoidance and sage-grouse lek-buffer clip for GR-1 and GR-2.
 2. NWI clip for GR-1 and GR-2 from the official statewide download or a GIS workstation.
-3. Deed/SOS confirmation for GR-2 and GR-1 beneficial ownership and transaction authority.
-4. SEO e-Permit pull for nearby senior rights and Dry Creek precedent details.
-5. Fontenelle M&I storage availability and pricing.
-6. PacifiCorp study scoping for entry load and build-out options.
+3. Section-level exhibit for GR-1 showing which non-core pieces and intervening easements/sections are required for a functional entry package.
+4. Deed/SOS confirmation for GR-2 and GR-1 beneficial ownership and transaction authority.
+5. SEO e-Permit pull for nearby senior rights and Dry Creek precedent details.
+6. Fontenelle M&I storage availability and pricing.
+7. PacifiCorp study scoping for entry load and build-out options.
 
 ## Go / No-Go Read
 
@@ -60,4 +62,4 @@ GR-2 / GR-1 first -> exact parcel polygon -> BLM acreage -> RMP/sage-grouse -> G
 
 That map is the prerequisite for a serious landholder conversation.
 
-Update: the table now exists at `corridor-aoi-overlay-table-2026-06-20.md`. It materially reduces generic BLM-surface concern, adds the official WGFD Core Area clip, and adds HIFLD/TIGER/rail/NHD corridor-distance checks. **GR-1 now looks better physically** because it has far less Core Area coverage and enough non-core acreage for an entry block, while **GR-2 remains the cleaner owner/infrastructure target**.
+Update: the table now exists at `corridor-aoi-overlay-table-2026-06-20.md`. It materially reduces generic BLM-surface concern, adds the official WGFD Core Area clip, and adds HIFLD/TIGER/rail/NHD corridor-distance checks. The follow-on GR-1 layout gate at `gr-1-layout-gate-2026-06-21.md` narrows the read: **GR-1 is still the physical lead, but only as a controlled-section package, not a single fee-contiguous 5,000-acre block**. **GR-2 remains the cleaner owner/infrastructure target** but is too core-constrained to carry the entry acreage by itself.

@@ -64,7 +64,7 @@ See `overlay-precheck-2026-06-20.md`.
 
 Current ranking after exact-geometry BLM/FEMA/ACEC/WGFD and corridor-distance checks:
 
-1. **GR-1** — larger Green River-side block, much lower Core Area coverage than GR-2, enough non-core acreage for a 5,000-acre entry block, and still within corridor thresholds for I-80, UP rail, and 230 kV transmission.
+1. **GR-1** — larger Green River-side block, much lower Core Area coverage than GR-2, enough non-core acreage in aggregate, and still within corridor thresholds for I-80, UP rail, and 230 kV transmission. Follow-on layout gate: this is a controlled-section package, not a single fee-contiguous 5,000-acre block.
 2. **GR-2** — direct Sweetwater Surface owner, strongest I-80/UP/230 kV adjacency, and simpler owner path, but high Core Area coverage means the non-core remainder is below the 5,000-acre target unless disturbance limits can be designed around.
 3. **RS-1** — strong services/power/labor candidate; water conveyance is the key check.
 4. **POR-1** — transmission-corridor fallback; lower priority until water path is shown.
@@ -87,4 +87,4 @@ Parcel ownership is no longer blocked. The new blocker is GIS overlay clipping:
 - Rock Springs RMP ROW-exclusion / ROW-avoidance overlays;
 - WGFD sage-grouse lek buffers;
 - USFWS NWI for the specific candidate blocks;
-- a layout sketch that tests a 5,000-acre non-core GR-1 entry block against GR-2's cleaner owner/infrastructure path.
+- a section-level exhibit that tests whether GR-1's non-core pieces can be made into a functional 5,000-acre controlled-section entry package through intervening access/utility rights.
