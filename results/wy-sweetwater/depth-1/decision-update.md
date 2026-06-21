@@ -3,6 +3,8 @@
 Date: 2026-06-20  
 Status: initial update after first Depth 1 source pull
 
+Hardening note: the evidence base is stable enough for a principal-facing summary. The remaining open items are exact-clipping work and deed/title follow-up, not a change in the recommendation.
+
 ## Bottom Line
 
 Sweetwater remains the only pilot county worth site-level search, but Depth 1 confirms the next object must be a parcel package, not another county report.
@@ -37,7 +39,7 @@ The best current thesis:
 1. RMP ROW-exclusion / ROW-avoidance and sage-grouse lek-buffer clip for GR-1 and GR-2.
 2. NWI clip for GR-1 and GR-2 from the official statewide download or a GIS workstation.
 3. Section-level exhibit for GR-1 showing which non-core pieces and intervening easements/sections are required for a functional entry package.
-4. Deed/SOS confirmation for GR-2 and GR-1 beneficial ownership and transaction authority.
+4. Deed/SOS confirmation for `UINTA DEV` and any remaining non-core landholder aliases that could matter for a parcel-specific ask.
 5. SEO e-Permit pull for nearby senior rights and Dry Creek precedent details.
 6. Fontenelle M&I storage availability and pricing.
 7. PacifiCorp study scoping for entry load and build-out options.
@@ -63,3 +65,10 @@ GR-2 / GR-1 first -> exact parcel polygon -> BLM acreage -> RMP/sage-grouse -> G
 That map is the prerequisite for a serious landholder conversation.
 
 Update: the table now exists at `corridor-aoi-overlay-table-2026-06-20.md`. It materially reduces generic BLM-surface concern, adds the official WGFD Core Area clip, and adds HIFLD/TIGER/rail/NHD corridor-distance checks. The follow-on GR-1 layout gate at `gr-1-layout-gate-2026-06-21.md` narrows the read: **GR-1 is still the physical lead, but only as a controlled-section package, not a single fee-contiguous 5,000-acre block**. **GR-2 remains the cleaner owner/infrastructure target** but is too core-constrained to carry the entry acreage by itself.
+
+## Hardened Read
+
+- Report-safe conclusion: Sweetwater survives, but the right language is now "enter small, optioned to scale" and "controlled-section package," not "clean 5,000-acre block."
+- Owner clarity: `SWEETWATER SURFACE LLC` is the cleanest direct surface ask; `AGGIE GRAZING LLC` is the strongest parallel Sweetwater-platform owner; `ANADARKO LAND CORP`, `WILDCAT COAL LLC`, and `UINTA DEV` stay separate unless deed/SOS work proves otherwise.
+- No further broad research is needed before the principal report.
+- The only remaining parcel-specific research is manual GIS clipping of Rock Springs RMP ROW/avoidance, sage-grouse lek buffers, and official NWI on the exact polygons.
