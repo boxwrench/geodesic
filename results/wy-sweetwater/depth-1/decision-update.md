@@ -27,12 +27,14 @@ The best current thesis:
 | Federal overlays | RMP/sage-grouse remain layout constraints; no AOI clip yet | Need map before any LOI |
 | Sage-grouse Core Area | Official WGFD core-area clip puts GR-2 ~52.8% in Blacks Fork Core and GR-1 ~17.2% in Blacks Fork Core; RS-1/POR-1 0% in the same clip | GR-1 now looks physically stronger than GR-2; GR-2 remains the cleaner owner target but is core-constrained |
 | Other public WGFD sage-grouse layers | All four candidates are 100% general sage-grouse habitat and 0% connectivity / winter concentration / transmission-corridor-through-core | These layers do not discriminate; Core Area and lek buffers remain the useful sage-grouse screens |
+| Corridor distances | GR-2 intersects/touches I-80 and UP rail and is ~0.70 mi from a mapped 230 kV PacifiCorp line; GR-1 is ~2.40 mi from I-80, ~1.98 mi from UP rail, and ~1.90 mi from a mapped 230 kV PacifiCorp line | Both pass the corridor-access and transmission-proximity screen; GR-2 is infrastructure-stronger |
+| Green River / local drainage | GR-1 intersects/touches Green River NHD linework; GR-2 is ~0.88 mi from Green River NHD linework; NHD maps flowlines inside both parcels | Both pass the water-conveyance distance screen; GR-1 is closest to water but needs tighter drainage/riparian layout diligence |
 | County posture | Favorable, but not binding | DA path should wait for real site package |
 
 ## What Is Still Missing
 
 1. RMP ROW-exclusion / ROW-avoidance and sage-grouse lek-buffer clip for GR-1 and GR-2.
-2. NWI/water-conveyance/transmission clip for GR-1 and GR-2.
+2. NWI clip for GR-1 and GR-2 from the official statewide download or a GIS workstation.
 3. Deed/SOS confirmation for GR-2 and GR-1 beneficial ownership and transaction authority.
 4. SEO e-Permit pull for nearby senior rights and Dry Creek precedent details.
 5. Fontenelle M&I storage availability and pricing.
@@ -58,4 +60,4 @@ GR-2 / GR-1 first -> exact parcel polygon -> BLM acreage -> RMP/sage-grouse -> G
 
 That map is the prerequisite for a serious landholder conversation.
 
-Update: the first table version now exists at `corridor-aoi-overlay-table-2026-06-20.md`. It materially reduces generic BLM-surface concern and adds the official WGFD Core Area clip. **GR-1 now looks better physically** because it has far less Core Area coverage, while **GR-2 remains the cleaner owner target**.
+Update: the table now exists at `corridor-aoi-overlay-table-2026-06-20.md`. It materially reduces generic BLM-surface concern, adds the official WGFD Core Area clip, and adds HIFLD/TIGER/rail/NHD corridor-distance checks. **GR-1 now looks better physically** because it has far less Core Area coverage and enough non-core acreage for an entry block, while **GR-2 remains the cleaner owner/infrastructure target**.

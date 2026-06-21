@@ -1,7 +1,7 @@
 # Sweetwater Depth 1 Physical Overlays
 
 Date: 2026-06-20  
-Status: overlay checklist; AOI-specific GIS pull not yet complete
+Status: overlay checklist; GR-1/GR-2 exact GIS pull partly complete
 
 ## Decision Question
 
@@ -9,26 +9,26 @@ Can a Green River / I-80 corridor parcel avoid the physical and federal/state ov
 
 ## Current Answer
 
-Unknown until a polygon exists. General Sweetwater exposure is clear enough to prioritize overlays:
+Partly answered for the two lead polygons. GR-1 and GR-2 now have exact parcel geometry, FEMA, BLM-only acreage, national ACEC, public WGFD sage-grouse polygon, HIFLD transmission, road/rail, Green River, and NHD local-drainage proxy checks. The unresolved overlays are now narrower:
 
-1. sage-grouse core areas and leks;
-2. BLM Rock Springs RMP ACEC / ROW exclusion / ROW avoidance;
-3. federal surface and land-tenure categories;
-4. Green River / wetland / NWI features;
-5. transmission and road access;
-6. geotech/subsidence zones west of Green River.
+1. BLM Rock Springs RMP ROW exclusion / ROW avoidance;
+2. sage-grouse lek buffers;
+3. official NWI wetland clip;
+4. parcel-level layout against the mapped drainage and non-core acreage;
+5. geotech/subsidence and mineral-panel check if either parcel advances.
 
 ## Overlay Stack
 
 | Layer | Why it matters | Current status | Depth 1 output |
 |---|---|---|---|
-| BLM surface | Federal surface can add exchange/ROW/NEPA path | open | Federal-vs-private section map |
-| Rock Springs RMP ACEC / ROW exclusions | May cap utilities, roads, pipelines, or layout | source path confirmed; clip open | Candidate AOI clipped to RMP constraints |
-| Sage-grouse core / leks | Layout, disturbance caps, timing limits | open | Candidate AOI clipped to core area / lek buffers |
-| FEMA NFHL | Corridor flood risk and Green River adjacency | open | Flood hazard map for AOI |
-| NWI wetlands / waters | Low countywide but important near Green River and playas | source path confirmed; clip open | NWI map for AOI |
-| HIFLD transmission | Proximity is known; exact tie point unknown | probable | Distance to HV lines/substations |
-| Roads / rail | I-80 corridor is a major advantage | probable | Distance to I-80 / rail / local roads |
+| BLM surface | Federal surface can add exchange/ROW/NEPA path | solved for GR-1/GR-2 BLM-only acreage | Federal-vs-private section map reduced; RMP ROW still open |
+| Rock Springs RMP ACEC / ROW exclusions | May cap utilities, roads, pipelines, or layout | national ACEC solved; RMP ROW source not exposed as clean BLM GIS layer | Candidate AOI clipped to RMP map package |
+| Sage-grouse core / leks | Layout, disturbance caps, timing limits | core solved; leks open | Candidate AOI clipped to lek buffers |
+| FEMA NFHL | Corridor flood risk and Green River adjacency | solved for GR-1/GR-2 exact parcel parts | 0 NFHL features returned |
+| NWI wetlands / waters | Low countywide but important near Green River and playas | official source confirmed; practical clip still open | NWI map for AOI |
+| HIFLD transmission | Proximity is known; exact tie point unknown | solved for GR-1/GR-2 proximity | Distance to nearest mapped 230 kV PacifiCorp line |
+| Roads / rail | I-80 corridor is a major advantage | solved for GR-1/GR-2 | Distance to I-80 / UP rail |
+| Green River / NHD drainage | Water conveyance plus local drainage constraints | solved as NHD proxy for GR-1/GR-2 | Green River distance + mapped NHD flowlines |
 | Geotech / subsidence | Avoid mined panels and worst trona subsidence west of Green River | probable | Exclusion note for known high-risk zones |
 
 ## First-Pass Siting Rules
@@ -54,11 +54,11 @@ HV transmission / substations
 I-80 / rail
 ```
 
-## Open Items
+## Remaining Open Items
 
 - The BLM Rock Springs RMP source path is confirmed by BLM's 2024 release, which says the planning area includes about 3.6M acres of BLM-administered surface and 3.5M acres of mineral estate across portions of Sweetwater and neighboring counties. The release points to the National NEPA Register, but the ePlanning UI shell was not directly fetchable in this pass.
-- WGFD sage-grouse map/source path exists in the cache, but no AOI clip has been run.
-- FEMA/NWI can be run once a candidate AOI exists.
+- WGFD sage-grouse public polygon clips are complete, but the public page does not expose lek point/buffer shapefiles. A WGFD/consultant lek-buffer check is still needed.
+- FEMA is complete for GR-1/GR-2 exact parcel parts. NWI remains open because the official FWS REST service returned application errors and the official Wyoming downloads are large statewide packages.
 - IPaC should not be run county-wide; it needs an actual polygon.
 
 ## Overlay Pull Status
@@ -66,11 +66,13 @@ I-80 / rail
 | Overlay | Source status | Current result |
 |---|---|---|
 | County parcels | Solved: official TerraGIS `ownership.zip` downloaded and inspected | Ranked candidates identified |
-| GR-2 / GR-1 exact parcel-part precheck | Solved for geometry stats, FEMA exact-part query, BLM SMA intersecting-category query, BLM-only acreage, national ACEC, and public WGFD sage-grouse polygons | New table: `corridor-aoi-overlay-table-2026-06-20.md`; GR-2 is owner-cleaner, GR-1 is physically stronger after sage-core clipping, and generic BLM acreage is minor |
+| GR-2 / GR-1 exact parcel-part precheck | Solved for geometry stats, FEMA exact-part query, BLM SMA intersecting-category query, BLM-only acreage, national ACEC, public WGFD sage-grouse polygons, HIFLD/TIGER/rail distances, Green River distance, and NHD local-drainage proxy | New table: `corridor-aoi-overlay-table-2026-06-20.md`; GR-2 is owner/infrastructure-cleaner, GR-1 is physically stronger after sage-core clipping, and generic BLM acreage is minor |
 | BLM Rock Springs RMP | Official BLM release found; ePlanning register points to project docs but shell not fetchable here | Manual/browser or alternate BLM GIS data pull needed |
 | Sage-grouse core areas | Solved for official WGFD Core Areas v4 shapefile | GR-2 ~52.8% Blacks Fork Core; GR-1 ~17.2%; RS-1/POR-1 0% |
 | Other public WGFD sage-grouse layers | Solved for general habitat, connectivity, winter concentration, and transmission-corridor-through-core shapefiles | All four candidates 100% general habitat and 0% for the other three layers |
 | Sage-grouse leks / buffers | Source still open; core-area clip does not include lek locations/buffers | Manual/browser GIS pull needed |
 | FEMA | Solved at envelope level through NFHL REST layer 28 | Zero flood-hazard features returned for all four candidate envelopes |
 | NWI | Wyoming geodatabase source exists but is 1.12 GB and needs GIS tooling | Manual/GIS workstation pull needed |
-| HIFLD transmission | Stable national source; local transmission cache already identifies corridor | Clip after AOI geometry is exported |
+| HIFLD transmission | Stable national source queried for GR-1/GR-2 | GR-2 ~0.70 mi to mapped 230 kV PacifiCorp line; GR-1 ~1.90 mi |
+| I-80 / UP rail | Public freeway and railroad FeatureServers queried for GR-1/GR-2 | GR-2 intersects/touches I-80 and UP rail; GR-1 ~2.40 mi to I-80 and ~1.98 mi to UP rail |
+| Green River / NHD drainage | USGS NHD queried for GR-1/GR-2 | GR-1 intersects/touches Green River linework; GR-2 ~0.88 mi away; both have mapped NHD flowlines requiring layout review |

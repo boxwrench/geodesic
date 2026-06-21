@@ -4,6 +4,8 @@ Date: 2026-06-20
 Status: REST/envelope precheck against ranked AOI candidates  
 Candidates: GR-1, GR-2, RS-1, POR-1 from `aoi-candidates-2026-06-20.md`
 
+Update: this file is superseded for GR-1/GR-2 by `corridor-aoi-overlay-table-2026-06-20.md`, which adds exact parcel geometry, BLM-only acreage, ACEC, WGFD sage-grouse polygon clips, HIFLD transmission, I-80/rail, Green River, and NHD drainage-proxy checks. Keep this file as the earlier envelope-level record for RS-1/POR-1 and source-path context.
+
 ## Method
 
 This pass used the official Sweetwater County parcel shapefile bboxes as query envelopes. It is a screen, not a final GIS clip. It can identify obvious flood/federal-surface interactions, but it does not calculate parcel-level overlap acreage.
@@ -121,11 +123,11 @@ Depth 1 read: NWI is still a manual GIS pull. For Sweetwater, this is lower prio
 
 ## Transmission Status
 
-No new HIFLD transmission REST query was completed in this pass. The prior local transmission cache already establishes that the Jim Bridger / Anticline / Gateway corridor is a real attractor and that headroom is study-gated. Candidate-specific distance still needs a GIS clip.
+Superseded for GR-1/GR-2: a HIFLD transmission query is now complete in `corridor-aoi-overlay-table-2026-06-20.md`. GR-2 is about 0.70 mi from a mapped 230 kV PacifiCorp line; GR-1 is about 1.90 mi from a mapped 230 kV PacifiCorp line. Headroom remains study-gated.
 
 Depth 1 read:
 
-- GR-1 / GR-2: water-favorable; transmission distance needs exact clip.
+- GR-1 / GR-2: water-favorable and transmission-distance clip now complete; RMP/ROW, lek buffers, and NWI still need exact/manual GIS work.
 - RS-1: likely stronger for services/power/labor; water conveyance needs exact clip.
 - POR-1: likely stronger for transmission/industrial corridor; water path likely weaker.
 
@@ -140,9 +142,7 @@ Depth 1 read:
 
 ## Next GIS Tasks
 
-1. Export exact parcel polygons for GR-2 and GR-1 from the county shapefile.
-2. Clip BLM SMA acreage by parcel polygon, not just envelope.
-3. Pull Rock Springs RMP land-tenure / ACEC / ROW exclusion layers from BLM ePlanning or GIS.
-4. Pull WGFD sage-grouse core area / lek buffers and clip against GR-2 and GR-1.
-5. Run NWI/FEMA on exact polygons once a GIS stack is available.
-6. Measure Green River/JPWB and HV transmission distance for GR-2 and GR-1.
+1. Pull Rock Springs RMP land-tenure / ROW exclusion / ROW avoidance layers from BLM ePlanning or GIS.
+2. Pull WGFD sage-grouse lek buffers and clip against GR-2 and GR-1.
+3. Run NWI on exact polygons from the official statewide download or a GIS workstation.
+4. Sketch a 5,000-acre non-core GR-1 entry block and compare it against a GR-2 core-disturbance-constrained entry layout.

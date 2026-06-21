@@ -1,7 +1,7 @@
 # Sweetwater Depth 1 Parcel Candidates
 
 Date: 2026-06-20  
-Status: initial AOI specification; no parcel geometry retrieved yet
+Status: AOI specification; GR-1/GR-2 exact overlay pass partly complete
 
 ## Decision Question
 
@@ -9,7 +9,7 @@ Can we define a real, optionable 5,000-10,000 acre Green River / I-80 corridor b
 
 ## Current Answer
 
-Partially yes. The official county parcel shapefile identifies multiple above-threshold Sweetwater-related blocks in the Green River / Rock Springs / Point of Rocks search extents. The exact buildable AOI is still open because those blocks have not yet been clipped against BLM surface, sage-grouse core areas, Rock Springs RMP designations, FEMA/NWI, Green River conveyance distance, and transmission proximity.
+Partially yes. The official county parcel shapefile identifies multiple above-threshold Sweetwater-related blocks in the Green River / Rock Springs / Point of Rocks search extents. GR-1 and GR-2 now have exact geometry clips for BLM surface, national ACEC, FEMA, public WGFD sage-grouse polygons, HIFLD transmission, I-80/rail, Green River distance, and NHD drainage proxy. The exact buildable AOI is still open because Rock Springs RMP ROW designations, lek buffers, NWI, and a real layout sketch are not complete.
 
 Detailed candidate table: `aoi-candidates-2026-06-20.md`.
 
@@ -28,10 +28,10 @@ Detailed candidate table: `aoi-candidates-2026-06-20.md`.
 |---|---|---|---|
 | Seller | Single or controlled seller, ideally Sweetwater / New URC fee surface | probable but unproven | County parcel/deed pull or paid parcel data |
 | Size | 5,000-10,000 acre entry block, optionable for expansion | initial pass found several above-threshold blocks | Section-level AOI map and overlay clip |
-| Basin | Green River side / feasible conveyance to Green River or JPWB node | open | AOI against river/JPWB distance |
-| Federal surface | Minimal BLM critical-path exposure | open | BLM surface + land-tenure map |
-| RMP / ACEC | Outside worst ROW exclusion/avoidance or ACEC constraints | open | BLM Rock Springs RMP map clip |
-| Sage-grouse | Outside core or layout can meet disturbance/lek constraints | open | WGFD core/lek clip |
+| Basin | Green River side / feasible conveyance to Green River or JPWB node | passes for GR-1/GR-2 via NHD Green River distance | JPWB/intake/service feasibility |
+| Federal surface | Minimal BLM critical-path exposure | BLM-only acreage minor for GR-1/GR-2 | RMP ROW map package |
+| RMP / ACEC | Outside worst ROW exclusion/avoidance or ACEC constraints | national ACEC solved; RMP ROW open | BLM Rock Springs RMP map clip |
+| Sage-grouse | Outside core or layout can meet disturbance/lek constraints | core solved; leks open | WGFD/consultant lek-buffer clip |
 | Water | Firming path via Fontenelle or senior right | probable, not AOI-specific | SEO e-Permit + Fontenelle inquiry |
 | Power | Entry below 25 MW or studied 25-199 MW path | probable as strategy | PacifiCorp study only after AOI |
 
@@ -62,10 +62,10 @@ section/township/range | owner | surface estate | mineral notes | BLM adjacency 
 
 See `overlay-precheck-2026-06-20.md`.
 
-Preliminary ranking after envelope-level FEMA and BLM SMA checks:
+Current ranking after exact-geometry BLM/FEMA/ACEC/WGFD and corridor-distance checks:
 
-1. **GR-2** — direct Sweetwater Surface owner, above 5,000 acres, Green River-side thesis, simpler BLM/private envelope than GR-1.
-2. **GR-1** — larger Green River-side block, still attractive, but more mixed envelope and likely more river-adjacent screening.
+1. **GR-1** — larger Green River-side block, much lower Core Area coverage than GR-2, enough non-core acreage for a 5,000-acre entry block, and still within corridor thresholds for I-80, UP rail, and 230 kV transmission.
+2. **GR-2** — direct Sweetwater Surface owner, strongest I-80/UP/230 kV adjacency, and simpler owner path, but high Core Area coverage means the non-core remainder is below the 5,000-acre target unless disturbance limits can be designed around.
 3. **RS-1** — strong services/power/labor candidate; water conveyance is the key check.
 4. **POR-1** — transmission-corridor fallback; lower priority until water path is shown.
 
@@ -84,8 +84,7 @@ Entity pass strengthens the parcel ranking:
 
 Parcel ownership is no longer blocked. The new blocker is GIS overlay clipping:
 
-- BLM surface and land-tenure map;
-- Rock Springs RMP ACEC / ROW-exclusion / ROW-avoidance overlays;
-- WGFD sage-grouse core areas and lek buffers;
-- FEMA NFHL and USFWS NWI for the specific candidate blocks;
-- transmission/substation distance and feasible water conveyance.
+- Rock Springs RMP ROW-exclusion / ROW-avoidance overlays;
+- WGFD sage-grouse lek buffers;
+- USFWS NWI for the specific candidate blocks;
+- a layout sketch that tests a 5,000-acre non-core GR-1 entry block against GR-2's cleaner owner/infrastructure path.
