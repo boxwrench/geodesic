@@ -72,7 +72,13 @@
 - Firm-water-at-build-out trichotomy: source exists / source exists at major cost / no firm source at scale:
 - New rights vs. acquirable/transferrable rights path:
 - Power-at-scale threshold/headroom: entry load, build-out load, utility process cliffs, self-build constraints:
-- Buildable acreage after floodplain, wetlands, hydric soils, federal surface, protected land, and drainage exclusions:
+- Overlay topology / buildable-acreage component test:
+  - Constraint overlays used (floodplain, wetlands, hydric soils, drainage, federal surface, protected land, habitat cores/corridors, local avoid zones):
+  - Aggregate surviving acreage:
+  - Largest contiguous component:
+  - Component count:
+  - Buffer sensitivities:
+  - Decision language: fee-contiguous block / controlled-section package / aggregate-only false pass:
 - Transmission tie-in path:
 - Geological constraints:
 - Absorption capacity: construction labor, housing, and service capacity within realistic commute shed:

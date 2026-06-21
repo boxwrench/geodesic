@@ -1,13 +1,15 @@
 # Step 2 — Signal Calibration (pilot evidence)
 
-**Date:** 2026-06-13; updated 2026-06-20 · **Mode:** B · **Status:** **APPLIED to framework/04 (v1.1 on 2026-06-13; v1.2 on 2026-06-20)** — the re-scores below were baked into [framework/04](../framework/04-signal-inventory.md) with a calibrated power column + changelog. This note remains the rationale-of-record; every calibrated score traces to a row here.
-**Inputs:** the three pilot state/county screens through Stage 3 Validate, plus Sweetwater Stage 4 Commit ([Sweetwater WY](../results/wy-sweetwater/), [Fall River SD](../results/sd-fall-river/), [Jones NC](../results/nc-jones/)); the [pilot-lessons ledger](pilot-lessons.md); the [friendliness-marker loop](friendliness-markers.md). Method: [ops/step-2](../ops/step-2-calibration.md).
+**Date:** 2026-06-13; updated 2026-06-20 and 2026-06-21 · **Mode:** B · **Status:** **APPLIED to framework/04 (v1.1 on 2026-06-13; v1.2 on 2026-06-20; v1.3 on 2026-06-21)** — the re-scores below were baked into [framework/04](../framework/04-signal-inventory.md) with a calibrated power column + changelog. This note remains the rationale-of-record; every calibrated score traces to a row here.
+**Inputs:** the three pilot state/county screens through Stage 3 Validate, Sweetwater Stage 4 Commit, and Sweetwater Depth-1 layout-gate work ([Sweetwater WY](../results/wy-sweetwater/), [Fall River SD](../results/sd-fall-river/), [Jones NC](../results/nc-jones/)); the [pilot-lessons ledger](pilot-lessons.md); the [friendliness-marker loop](friendliness-markers.md). Method: [ops/step-2](../ops/step-2-calibration.md).
 
 ## Scope & honesty note (read first)
 
 The first calibration pass was written when the pilot had only reached **Stage 1 (state screen + county Screen)**. It correctly re-scored the cheap structural front and left Stage 2/3/4 signals flagged as untested.
 
 The second pass updates that posture: all three counties now reached **Stage 3 Validate**, Sweetwater reached **Stage 4 Commit**, and meeting-record infrastructure was backfilled across the pilot. Stage 2 Mode-D calls are still untested, but Stage 2 topology/meeting records and Stage 3 physical/absorption signals are now calibrated from real pilot evidence.
+
+The third pass is narrower: Sweetwater Depth 1 exercised the physical overlay workflow against exact parcel geometry and showed that aggregate surviving acreage can produce a false green light unless the remaining land is split into contiguous components. That adds one site/Validate signal, not a wholesale re-score.
 
 Legal/factual claims remain 🔍 Mode-B drafts unless verified against primary sources; calibration here is about *signal power*, not final truth status.
 
@@ -38,6 +40,7 @@ Legal/factual claims remain 🔍 Mode-B drafts unless verified against primary s
 | **Firm-water-at-build-out trichotomy** | Validate/site | New Stage-3 refinement | 2-6 h | **YES, hardest Validate discriminator** — Sweetwater concern, Jones scale-dependent, Fall River hard kill | **VERY HIGH / terminal Validate signal** | Grade as: firm source exists; firm source exists at major cost; no firm source at scale. No firm source is a harder kill than politics. [L19](pilot-lessons.md) |
 | **Absorption capacity** (labor/housing, firm power/water, scale-triggered thresholds) | Validate/regional | New | 2-6 h | **YES** — all three verdicts became scale/absorption-dependent | **VERY HIGH at Validate** | Entitlement-feasible is not buildable. Validate must test regional labor/housing and at-scale utility thresholds. [L16](pilot-lessons.md) |
 | **Current-jurisdiction date-check** for federal/wetlands/legal kill layers | Validate/legal | New | 1-3 h | **YES** — Jones §404 kill partially rescued by _Sackett_ + NC SB 582 | **HIGH where legal regime recently changed** | Re-check current law before treating a framework prior as a kill. [L17](pilot-lessons.md) |
+| **Overlay topology / contiguous-component test** | Site/Validate | New Depth-1 refinement | 1-3 h after geometry is available | **YES** — Sweetwater GR-1 passed on aggregate non-core acreage but failed as a fee-contiguous 5,000-acre block | **VERY HIGH at site/Validate** | Report aggregate surviving acreage, largest contiguous component, component count, and buffer sensitivity. Prevents aggregate-acreage false passes. [L21](pilot-lessons.md) |
 | **Parallel Validate fan-out across all axes** | Method | New | Half-day orchestration | **YES** — Stage-1 fears did not predict the binding Stage-3 axis | **Method rule, not score** | Run water, power, land+absorption, and geotech in parallel; don't budget Validate by Stage-1 fear. [L18](pilot-lessons.md) |
 | Planner call / EDO read (Mode D) | County | Very high / High | Not run | **NOT TESTED** | Keep prior, flagged | Still likely useful for finalists, but the pilot did not show it dominating the cheap structural or Validate signals. |
 
@@ -49,8 +52,9 @@ Legal/factual claims remain 🔍 Mode-B drafts unless verified against primary s
 4. **Demote `transmission proximity` High → Medium** (attractor, not discriminator in-pilot).
 5. **Promote `firm-water-at-build-out` and `absorption capacity` as explicit Validate-stage signals**; they now outrank generic transmission proximity and generic friendliness.
 6. **Make wetlands/federal-handle power date-conditional.** NWI remains an early physical screen, but §404/legal significance must be current-jurisdiction checked at Validate.
-7. **Keep** referendum reach, fragmentation, vesting, topology, and veto-holder identification high.
-8. **Keep Mode-D planner/EDO calls uncalibrated** until actually run.
+7. **Add overlay topology / contiguous-component testing** wherever parcel or AOI geometry is available; report total surviving acres and largest component separately.
+8. **Keep** referendum reach, fragmentation, vesting, topology, and veto-holder identification high.
+9. **Keep Mode-D planner/EDO calls uncalibrated** until actually run.
 
 ## Scorecard schema decision
 
@@ -62,8 +66,8 @@ Evidence says automate the **cheap structural front** first — it's where decis
 
 1. **Scale-threshold ratio** — one Census API call fills a high-power cell for every county. *Highest ROI; near-trivial to build.*
 2. **Water/basin + new-vs-acquirable rights path + firm-source trichotomy** — state water DBs, capacity-use/closed-basin layers, and structured validation of source existence at build-out.
-3. **Flood/wetlands early screen** — FEMA NFHL + NWI + buildable-acreage estimate; high power for the current attempt because tolerance is low.
-4. **Ownership/federal-interspersion + large-tract inventory** — parcel/BLM/USFS plus a stated listing/broker/assessor search method before acreage claims.
+3. **Flood/wetlands/physical overlay topology screen** — FEMA NFHL + NWI + NHD/hydric soils where available; compute aggregate surviving acreage, largest contiguous component, component count, and buffer sensitivity.
+4. **Ownership/federal-interspersion + large-tract inventory** — parcel/BLM/USFS plus a stated listing/broker/assessor search method before acreage claims; feed exact parcels into the topology screen before calling a site buildable.
 5. **Power threshold/headroom flags** — proximity is medium; utility threshold cliffs and study requirements are higher-power at Validate.
 6. **Browser-capable fetch step** — unlocks SEO e-Permit, county GIS, Granicus, Drive/Vimeo, IPaC AOI, and docket gaps.
 7. *(Deferred)* **Meeting-minutes/transcript pipeline** — high qualitative value, but rank only after topology and meeting-record infrastructure are captured.

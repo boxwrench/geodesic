@@ -19,10 +19,10 @@
 
 ## Candidate tool 2 — Dataset pullers and overlay pullers (Tier A)
 
-- **What:** small Python scripts, one per source: Census scale ratio, NFHL/NWI/HIFLD/TIGER/PAD-US/BLM surface queries for a county or AOI → rows in `signals`. Water pullers distinguish basin status, new-right availability, and acquirable/transferrable rights paths where the state exposes usable records.
+- **What:** small Python scripts, one per source: Census scale ratio, NFHL/NWI/NHD/HIFLD/TIGER/PAD-US/BLM surface queries for a county or AOI → rows in `signals`. Overlay helpers compute not just overlap acres, but aggregate surviving acreage, largest contiguous component, component count, and buffer sensitivity. Water pullers distinguish basin status, new-right availability, and acquirable/transferrable rights paths where the state exposes usable records.
 - **Form:** `pullers/{source}.py --county "Jones, NC"` → writes to DB + caches raw responses in `data/raw/`. Each puller documents its endpoint in [data-sources.md](data-sources.md).
 - **Est. effort:** 1–3 h per source once the DB exists.
-- **Current v1.2 order:** scale ratio → water/basin/rights → FEMA/NWI buildable-acreage screen → ownership/federal interspersion → power threshold/headroom flags.
+- **Current v1.3 order:** scale ratio → water/basin/rights → FEMA/NWI/NHD overlay topology screen → ownership/federal interspersion → power threshold/headroom flags.
 
 ## Candidate tool 3 — Browser-capable fetch step
 
@@ -64,8 +64,8 @@ When the funnel widens beyond the pilot:
 
 1. New state enters → run [step-0](step-0-state-screens.md) (always manual+counsel; never automated).
 2. Passing states → enumerate candidate counties (population band, distance-to-metro, ag land share — criteria set per state).
-3. Pullers fill Tier A columns for all queued counties: scale, water/basin/rights, flood/wetlands, ownership/federal interspersion, and power flags → kill on Stage 1 triggers.
+3. Pullers fill Tier A columns for all queued counties: scale, water/basin/rights, flood/wetlands/drainage overlay topology, ownership/federal interspersion, and power flags → kill on Stage 1 triggers.
 4. Topology + meeting-record infrastructure for survivors → decide whether minutes grading is worth the spend.
-5. Validate finalists with a parallel packet: firm-water trichotomy, absorption capacity, power-at-scale thresholds, buildable-acreage after overlays, and current-jurisdiction legal date-check.
+5. Validate finalists with a parallel packet: firm-water trichotomy, absorption capacity, power-at-scale thresholds, overlay topology / buildable-acreage component test, and current-jurisdiction legal date-check.
 6. Mode D calls only for counties surviving to the top decile — *human time is the scarcest resource; the entire engine exists to ration it.*
 7. Optionality rule enforced at all times: ≥2 live jurisdictions, ideally 3, plus the buy-already-entitled track.

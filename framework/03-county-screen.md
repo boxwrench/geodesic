@@ -85,10 +85,27 @@ So every county that reaches Stage 3 gets the same parallel Validate packet, reg
 1. **Firm-water-at-build-out trichotomy:** source exists and durability is the work; source exists at major capital cost; or no firm source exists at scale. The third case is a hard kill.
 2. **Absorption capacity:** construction labor, housing, and service capacity within the realistic commute shed; not just local political willingness.
 3. **Power-at-scale threshold/headroom:** not just distance to a line, but utility process cliffs, study requirements, self-build constraints, and state-commission triggers at entry and build-out load.
-4. **Buildable-acreage after constraints:** floodplain, wetlands, hydric soils, drainage, federal surface, protected lands, and local physical exclusions clipped against candidate parcels.
+4. **Overlay topology / buildable-acreage component test:** floodplain, wetlands, hydric soils, drainage, federal surface, protected lands, habitat cores, and local physical exclusions clipped against candidate parcels; report aggregate surviving acreage, largest contiguous component, component count, and buffer sensitivity.
 5. **Current-jurisdiction date-check:** for legal/federal kill layers, especially §404/WOTUS and state backfill regimes, confirm the law as of the report date before treating a framework prior as a final kill.
 
 Validate verdicts are **spec-conditional**. Record where the answer flips for entry phase, intermediate phase, and full build-out; if the principal's real scale/phasing is unknown, say that directly rather than converting a placeholder threshold into a final conclusion.
+
+### Overlay topology test
+
+The buildable-acreage test has two independent outputs:
+
+1. **How much survives in aggregate** after constraint overlays.
+2. **Whether the surviving land works as a site**: largest contiguous component, number of components, and whether roads, utilities, easements, or ownership control can make separate pieces function together.
+
+Use decision language that matches the geometry:
+
+| Geometry result | Decision language |
+|---|---|
+| Aggregate acreage clears threshold and largest component clears threshold | Fee-contiguous block candidate |
+| Aggregate acreage clears threshold but largest component does not | Controlled-section package; requires access/easement/utility/ownership control proof |
+| Aggregate acreage fails threshold after reasonable buffers | Fails physical layout gate unless spec shrinks |
+
+Run at least one sensitivity pass on mapped drainage, wetlands, floodplain, or local avoid zones where those layers are material. The Sweetwater GR-1 Depth-1 result is the caution case: about 7,610 non-core acres survived in aggregate, but the largest component was only about 640 acres, so the correct conclusion was not "5,000-acre block"; it was "controlled-section package." See [L21](../research/pilot-lessons.md).
 
 ## Weak signals — tiebreakers only
 
