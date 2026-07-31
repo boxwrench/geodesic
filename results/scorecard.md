@@ -61,10 +61,20 @@ Validate moved every county and reshaped the picture in three ways the cheap fro
 2. **L17 (new): a "kill" layer can be rescued by a legal change.** Jones' §404 wall was real in the framework's prior but **obsoleted by Sackett (2023) + NC SB 582** — the screen must date-check the *current* jurisdictional regime, not the textbook one. Conversely, Fall River's water kill is *not* rescuable (a specific board denied a specific analogous request).
 3. **Scale is the master variable — every non-survivor verdict is spec-conditional.** Fall River softens to "concern" only at low-thousands; Jones could clear at ≤~15k ac; even Sweetwater's "enter small" runway shortens if build-out is CF-scale (~400k) not ~50k. **This makes [framework/06](../framework/06-project-spec.md) — the principal's real build-out scale + phasing — the single highest-value missing input; it is now the gating unknown for all three, not just Sweetwater.**
 
-## Buy-already-entitled track
+## Buy-already-entitled track (Path 0)
 
-Standing inventory of large vested/entitled parcels for sale ([framework/05, Path 0](../framework/05-entitlement-paths.md)):
+Standing dealflow track for large **already-vested/entitled** land — [framework/05, Path 0](../framework/05-entitlement-paths.md) calls this "the only place a cheap durable yes at 10–100x magnitude *reliably already exists*." **Seeded 2026-06-17 (🔍 desk-research leads, not ranked).** Two dependencies before this table can rank ([L22](../research/pilot-lessons.md)): (1) it is **spec-gated** — a vested asset's value is magnitude-relative (a ~5k-home DA is a win for a 50k project, noise for a 400k one), so filter to magnitude-appropriate assets only *after* [framework/06](../framework/06-project-spec.md) is real; (2) the gating per-asset fact is always **"does the vested right survive a change of ownership?"** — state-specific, verify first.
 
-| Asset | State | Entitlement status | Vesting survives sale? | Notes |
-|---|---|---|---|---|
-| *(none logged yet)* | | | | |
+**How to populate (the three Path-0 asset classes, best→hardest to source):**
+
+1. **Distressed / foreclosed stalled MPCs with a *live* development agreement** — the highest-value class: the entitlement is built and the seller is motivated. Source via lender REO, CMBS special-servicer lists, bankruptcy dockets, county DA registries. *(A class, not yet a specific lead — this is the dealflow to build.)*
+2. **Base-reuse authority land (BRAC)** — large acreage under an Economic Development Conveyance; entitlement via a reuse plan + master developer. Often *already taken* by a master developer (see Concord below), but the pattern is the template.
+3. **Live large MPCs with vested DAs** — mostly *comparables/precedents* (not for sale), useful to study *which instrument* delivered durability, not to buy.
+
+| Asset | State | Class | Entitlement status (🔍) | Vesting survives sale? | Path-0 read |
+|---|---|---|---|---|---|
+| **Distressed stalled-MPC-with-live-DA** *(asset class — build the dealflow)* | any | 1 | varies — a live DA on a foreclosed/stalled MPC is the ideal: entitlement exists, seller motivated | **THE gating question** — state-specific; DA must run with the land or allow assignment | **Primary target class.** No specific lead logged yet; this is the standing search to run once magnitude is set. |
+| Concord Naval Weapons Station | CA | 2 | ~2,422 ac under Economic Development Conveyance; Navy term sheet approved (2026); Brookfield master developer; Specific Plan ~2029, build-out ~30 yr | reuse-plan entitlement, master-developer-controlled | **Pattern, not a buy** — illustrates the BRAC EDC route; developer slot already filled. Study the conveyance/vesting structure. |
+| Fort Ord (FORA legacy) | CA | 2 | ~28,000 ac former base; reuse plan adopted; FORA dissolved, entitlements/parcels distributed to jurisdictions | parcel-by-parcel; mixed | **Pattern + possible residual parcels** — fragmented; check for any large still-undeveloped vested parcel. |
+| Babcock Ranch | FL | 3 | approved ~19,000 units + 6M sf commercial; ~15k residents, →~60k build-out; selling strongly | DA/vested, but **not for sale** (developer building it out) | **Comparable only** — a durable-yes *precedent* (special-district + DA structure worth studying), not an acquisition. |
+| Teravalis | AZ | 3 | 37,000 ac, ~100k homes entitled; Howard Hughes building; first residents 2025 | vested, **not for sale** | **Comparable only** — the largest-MPC entitlement template; study the Buckeye annexation/DA stack. |

@@ -4,7 +4,7 @@
 
 ### A framework for finding where a new city can actually get entitled.
 
-[![Status](https://img.shields.io/badge/status-pre--pilot-2f6fed)](./ROADMAP.md)
+[![Status](https://img.shields.io/badge/status-pilot%20complete%20·%20draft%20·%20pre--counsel-2f6fed)](./ROADMAP.md)
 [![Focus](https://img.shields.io/badge/focus-entitlement%20durability-111111)](./framework/00-the-question.md)
 [![Mode](https://img.shields.io/badge/mode-manual%20before%20automation-5b8c5a)](./ROADMAP.md)
 [![Framework](https://img.shields.io/badge/framework-v1.3%20calibrated-8a63d2)](./framework/04-signal-inventory.md)
@@ -83,8 +83,26 @@ The repo is organized to match that sequence:
 4. [03 - County Screen](framework/03-county-screen.md) — the phase-gate funnel and county topology
 5. [04 - Signal Inventory](framework/04-signal-inventory.md) — every signal scored on power × cost
 6. [05 - Entitlement Paths](framework/05-entitlement-paths.md) — the path is a choice variable, not an input
-7. [06 - Project Spec](framework/06-project-spec.md) — the envelope being screened for (draft; placeholder numbers)
+7. [06 - Project Spec](framework/06-project-spec.md) — the envelope being screened for (**the step-0 gate**; currently placeholder numbers — answer before Validate)
 8. [07 - Federal Layer](framework/07-federal-layer.md) — §404, ESA, NEPA handles: minimize federal hooks
+
+*(That list is ordered by document; the diagram above is the conceptual funnel. The actual **run-order** is below.)*
+
+## Operating sequence (what you do, in order)
+
+The conceptual funnel becomes this sequence in practice. Each step is a gate: clear it before spending on the next.
+
+0. **⛔ Project spec gate — answer [framework/06](framework/06-project-spec.md) first.** Build-out scale (50k? 400k?), industrial anchor, phasing. It is one conversation and it sets every downstream threshold; every Validate/Commit verdict is *spec-conditional* on it. *(In the pilot this was run last under the pre-pilot "record-don't-eliminate" rule — a deliberate pilot-mode exception, not the live-mode order. See [L21](research/pilot-lessons.md).)*
+1. **State screen** ([02](framework/02-state-screen.md)) — four statute-readable variables (vesting · referendum reach · mini-NEPA · boundary commission) + the breach test. Kills whole states for $0.
+2. **County phase-gate funnel** ([03](framework/03-county-screen.md)) — run survivors through four stages, cheapest kill first, region-conditional ordering ([01 heuristics](framework/01-heuristics.md)):
+   - **Stage 1 — Screen** (~2h): existential physical/regulatory kills (water basin / §404 wetlands / overlays / no assembly path).
+   - **Stage 2 — Filter** (~1d): regulatory topology + political capacity (meeting-grade *paired with topology*, [04 signals](framework/04-signal-inventory.md)).
+   - **Stage 3 — Validate** (~1wk): physical/economic reality at scale — water, power, land+absorption (labor/housing), geotech.
+   - **Stage 4 — Commit** (~1mo): veto-player map, best path + veto stack, option/LOI posture.
+3. **Verify + counsel** — convert load-bearing 🔍 Mode-B drafts to ✅ against official primary sources; counsel-review the breach-test/durability claims. *No number is a verdict until this runs.*
+4. **Path selection & rank** ([05](framework/05-entitlement-paths.md)) — a county scores as well as its *best* path (county-entitle / annex / incorporate / district), evaluated over (state × county × path). Run the **[Path-0 buy-already-entitled](results/scorecard.md#buy-already-entitled-track)** track in parallel throughout.
+
+Kill-override and "pilot-mode runs every signal as data" modify *when* you act on a kill ([03](framework/03-county-screen.md)); they don't change this order.
 
 ## Current posture
 
@@ -96,8 +114,16 @@ The repo is organized to match that sequence:
 | Pilot counties | Sweetwater County WY, Fall River County SD, Jones County NC |
 | Next move | Principal scale/phasing input, principal-facing upgrade/results report, then widen the funnel |
 | Automation | Deferred except for proven Tier-A/overlay helpers; build order lives in [ops/step-3](ops/step-3-automation.md) |
+| Framework | **v1.1 — signal inventory ([04](framework/04-signal-inventory.md)) calibrated (partial) against the 3-county pilot**; docs 00–03, 05–07 stable. Scale-threshold promoted, transmission demoted, friendliness-grade topology-gated. *Calibration was off a Stage-1 pass; a second pass for the Stage-3/4 lessons (L16–L19) is due.* |
+| Stage | **Pilot complete end-to-end** — all 3 counties run through Stage 4. Everything is a 🔍 Mode-B draft pending the verification + counsel pass (see Known limitations). |
+| Pilot states | Wyoming, South Dakota, North Carolina |
+| Pilot counties | Sweetwater County WY (🟡 survivor), Fall River County SD (🔴 confirmed), Jones County NC (🔴-leaning, scale-dependent) |
+| Next move | Get the principal's real project spec ([06](framework/06-project-spec.md)) — the gating unknown for all three verdicts — then run the deferred verification/counsel pass. See [ROADMAP](ROADMAP.md). |
+| Automation | Intentionally deferred until the manual pilot proves signal value ("earn the engine") |
 
-See the active plan in [ROADMAP.md](ROADMAP.md).
+See the active plan and full log in [ROADMAP.md](ROADMAP.md).
+
+> **Known limitations (read before trusting any verdict).** Everything in `results/` is a **🔍 Mode-B draft**: AI-assisted, sourced to secondary/finding-aid material, **not yet verified against official primary sources or reviewed by counsel** (one exception: the ✅ WY Title 15 extract). The pilot's Stage-3/4 economics were screened against **placeholder spec numbers** ([06](framework/06-project-spec.md)) — every verdict is explicitly *spec-conditional*. The [Path-0 buy-already-entitled track](results/scorecard.md#buy-already-entitled-track) is unpopulated. This README's posture is the project's *negative* filter result (it cheaply rejects wrong jurisdictions); it has **not** yet produced a verified, durable-yes-confirmed jurisdiction.
 
 ## Reading paths
 
@@ -116,6 +142,7 @@ If you are here to execute the workflow:
 If you want the research trace:
 
 - Start with [research/2026-06-09-entitlement-durability-synthesis.md](research/2026-06-09-entitlement-durability-synthesis.md)
+- See the outside view: [research/2026-06-17-base-rate-catalog.md](research/2026-06-17-base-rate-catalog.md) — prior new-city attempts and the instrument that killed/saved each
 - Then inspect the raw notes in [research/raw/](research/raw)
 
 ## Design principles

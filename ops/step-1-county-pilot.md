@@ -38,8 +38,18 @@
 
 ### 2.2 24-month meeting analysis + friendliness grade — Mode A/B
 
-- **Procedure:** run [protocol-meeting-grading.md](protocol-meeting-grading.md) (acquire transcripts via yt-dlp/Legistar/pdftotext → deterministic scoring → sampled AI pass → Development Friendliness Grade). For the pilot, the by-hand shortcut in that protocol applies — but record in the protocol's JSON schema. Also compute the [rezoning-ease metrics](../framework/03-county-screen.md#rezoning-ease-metrics-first-class-measurements) and watch one full meeting per county (honesty check).
-- **Output:** friendliness grade + components, rezoning-ease table, qualitative section. **Time:** 2–3h/county — the biggest line item, and the thing Step 3 most wants to automate.
+- **Procedure:** run [protocol-meeting-grading.md](protocol-meeting-grading.md), which is now **implemented in [`scripts/meetings/`](../scripts/meetings/README.md)** — the by-hand shortcut no longer applies to a new county:
+
+  ```
+  python scripts/meetings/discover.py "<County> County" <ST>   # then paste the stub into registry.json
+  python scripts/meetings/probe.py <county>                    # what is reachable
+  python scripts/meetings/acquire.py <county> --dry-run        # then without --dry-run
+  python scripts/meetings/score.py <county> --per-meeting
+  python scripts/meetings/render_records.py                    # update the records registry
+  ```
+
+  Two things stay human and are not defects: **set the topology class** (the stub emits `unknown`, which makes the scorer withhold the grade) and **the Stage-4 tone pass**. Also compute the [rezoning-ease metrics](../framework/03-county-screen.md#rezoning-ease-metrics-first-class-measurements) and watch one full meeting (honesty check) — build a [review queue](../results/meeting-review-queue.md) ranked by contention first, so the hour goes to the contested meetings rather than a random one.
+- **Output:** friendliness grade + components (reported as points earned of points *scorable*, never a bare number), rezoning-ease table, qualitative section, plus an updated [meeting-records registry](../results/meeting-records.md) entry. **Time:** was 2–3h/county by hand; the scripted path is minutes of compute plus the topology call and the review hour. Acquisition cost is now set by the county's vendor, not by us — Legistar and plain PDF archives are cheap forever, Granicus and Vimeo need a browser step every time.
 
 ### 2.2.5 County posture depth — Mode B/C
 

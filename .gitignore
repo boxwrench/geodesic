@@ -22,3 +22,11 @@ env/
 
 # NOTE: results/principal-input-handoff.pdf is intentionally TRACKED
 # (it is a deliverable, not a build artifact). Do not add *.pdf here.
+
+# Local working review files & raw meeting transcripts
+REVIEW.md
+reports/
+research/2026-06-17-base-rate-catalog.md
+research/raw/
+results/meeting-review-queue.md
+scripts/
